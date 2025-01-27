@@ -1,0 +1,37 @@
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.deps.json
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.AssemblyReference.cache
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfoInputs.cache
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfo.cs
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.CoreCompileInputs.cache
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\refint\Walmart.Model.dll
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\GitHubCode\Walmart\Walmart.Model\obj\Debug\net8.0\ref\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.deps.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.AssemblyReference.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfoInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfo.cs
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.CoreCompileInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\refint\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart.Model\obj\Debug\net8.0\ref\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.deps.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\bin\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.AssemblyReference.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfoInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.AssemblyInfo.cs
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.csproj.CoreCompileInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.sourcelink.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\refint\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\Walmart.Model.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Model\obj\Debug\net8.0\ref\Walmart.Model.dll

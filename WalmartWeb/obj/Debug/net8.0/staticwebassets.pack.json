@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WalmartWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WalmartWeb.ktug20jdei.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\42accfb0-4116-4860-afb7-b9dfe5741f41.png",
+      "PackagePath": "staticwebassets\\images\\product\\42accfb0-4116-4860-afb7-b9dfe5741f41.png"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\f172582a-6082-4137-9615-9e68895f5c5d.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\f172582a-6082-4137-9615-9e68895f5c5d.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\fb1459a9-bd97-4036-8c40-99471eac6215.png",
+      "PackagePath": "staticwebassets\\images\\product\\fb1459a9-bd97-4036-8c40-99471eac6215.png"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\category.js",
+      "PackagePath": "staticwebassets\\js\\category.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WalmartWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WalmartWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WalmartWeb.props",
+      "PackagePath": "build\\WalmartWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WalmartWeb.props",
+      "PackagePath": "buildMultiTargeting\\WalmartWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WalmartWeb.props",
+      "PackagePath": "buildTransitive\\WalmartWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
