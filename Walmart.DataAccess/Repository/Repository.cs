@@ -1,11 +1,13 @@
 ﻿
-using FoodHolic.DataAccess.Repository.IRepository;
+using Walmart.DataAccess.Repository.IRepository;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using Walmart.DataAccess.Repository.IRepository;
 using WalmartWeb.DataAccess;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace FoodHolic.DataAccess.Repository
+namespace Walmart.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
@@ -24,9 +26,17 @@ namespace FoodHolic.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filters, string? includeProperties = null)
+        public T Get(Expression<Func<T, bool>> filters, string? includeProperties = null, bool tracked = false)
         {
-            IQueryable<T> query = dbSet.AsQueryable();
+            IQueryable<T> query = null;
+            if (tracked)
+            {
+                query = dbSet;
+            }
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
             query = query.Where(filters);
             if (!string.IsNullOrEmpty(includeProperties))
             {
@@ -35,13 +45,20 @@ namespace FoodHolic.DataAccess.Repository
                     query = query.Include(includeProp);
                 }
             }
+
             return query.FirstOrDefault();
         }
+        
 
         //Category,CoverType
-        public IEnumerable<T> GetAll(string? includeProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filters, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+            if(filters != null)
+            {
+                query = query.Where(filters);
+
+            }
             if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))

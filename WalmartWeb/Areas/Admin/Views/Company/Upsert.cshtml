@@ -1,0 +1,95 @@
+﻿@model Company
+
+<div class="card shadow border-0 mt-4">
+	<div class="card header bg-secondary bg-gradient ml-0 py-3">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 class=" text-dark py-2"> @(Model.Id != 0 ? "Update" : "Create") Company  </h2>
+			</div>
+		</div>
+	</div>
+	<div class="card-body p-4 ">
+		<form method="post">
+			<input asp-for="@Model.Id" hidden />
+
+			<div class="border p-3 ">
+
+				@* <div asp-validation-summary="ModelOnly" class="text-danger"></div> *@ <!-- ModelOnly, gives error which are not aligned to any of Model-->
+				<div class="row">
+
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="Name" class="form-control" aria-required="true" placeholder="Name" />
+						<label asp-for="Name" class="text-dark text-muted">Company Name</label>
+						<span asp-validation-for="Name" class="text-danger"></span>
+					</div>
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="StreetAddress" class="form-control" aria-required="true" placeholder="Name" />
+						<label asp-for="StreetAddress">StreetAddress</label>
+						<span asp-validation-for="StreetAddress" class="text-danger"></span>
+					</div>
+
+
+				</div>
+				<div class="row">
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="City" class="form-control"  placeholder="City" />
+						<label asp-for="City">City</label>
+						<span asp-validation-for="City" class="text-danger"></span>
+					</div>
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="State" class="form-control"  placeholder="State" />
+						<label asp-for="State">State</label>
+						<span asp-validation-for="State" class="text-danger"></span>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="PostalCode" class="form-control" placeholder="PostalCode" />
+						<label asp-for="PostalCode"> PostalCode</label>
+						<span asp-validation-for="PostalCode" class="text-danger"></span>
+					</div>
+					<div class="form-floating mb-3 col-md-6">
+						<input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number" />
+						<label asp-for="PhoneNumber">Phone Number</label>
+						<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+					</div>
+
+				</div>
+				<div class="row pt-2">
+					<div class="col-6 col-md-3">
+						<h2 class="text-primary">
+							@if (Model.Id != 0)
+							{
+								<button type="submit" class="btn btn-primary form-control">Update</button>
+							}
+							else
+							{
+								<button type="submit" class="btn btn-primary form-control">Create</button>
+							}
+						</h2>
+					</div>
+					<div class="col-6 col-md-3">
+						<a asp-area="Admin" asp-controller="Company" asp-action="Index" class="btn btn-outline-primary border form-control">
+							Back to List
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</form>
+
+
+	</div>
+
+</div>
+
+
+@section Scripts {
+	@{
+		<partial name="_ValidationScriptsPartial" />
+
+	}
+}
+
+

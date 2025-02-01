@@ -1,0 +1,13 @@
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\bin\Release\net8.0\Walmart.Utility.deps.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\bin\Release\net8.0\Walmart.Utility.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\bin\Release\net8.0\Walmart.Utility.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.csproj.AssemblyReference.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.AssemblyInfoInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.AssemblyInfo.cs
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.csproj.CoreCompileInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.sourcelink.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\refint\Walmart.Utility.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\Walmart.Utility.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.Utility\obj\Release\net8.0\ref\Walmart.Utility.dll

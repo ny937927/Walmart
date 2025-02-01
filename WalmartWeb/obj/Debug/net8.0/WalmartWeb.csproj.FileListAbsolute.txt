@@ -630,8 +630,8 @@ D:\DailyPractise\JARNY Projects\Walmart\WalmartWeb\obj\Debug\net8.0\WalmartWeb.g
 D:\DailyPractise\JARNY Projects\Walmart\WalmartWeb\obj\Debug\net8.0\ref\WalmartWeb.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\appsettings.Development.json
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\appsettings.json
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.staticwebassets.endpoints.json
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.staticwebassets.runtime.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.staticwebassets.endpoints.json
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.exe
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.deps.json
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\WalmartWeb.runtimeconfig.json

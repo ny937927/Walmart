@@ -1,4 +1,4 @@
-﻿using FoodHolic.DataAccess.Repository.IRepository;
+﻿using Walmart.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Walmart.Model.Models;
 using WalmartWeb.DataAccess;
 
-namespace FoodHolic.DataAccess.Repository
+namespace Walmart.DataAccess.Repository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {

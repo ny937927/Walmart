@@ -1,0 +1,16 @@
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\bin\Release\net8.0\Walmart.DataAccess.deps.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\bin\Release\net8.0\Walmart.DataAccess.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\bin\Release\net8.0\Walmart.DataAccess.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\bin\Release\net8.0\Walmart.Model.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\bin\Release\net8.0\Walmart.Model.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.csproj.AssemblyReference.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.AssemblyInfoInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.AssemblyInfo.cs
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.csproj.CoreCompileInputs.cache
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.sourcelink.json
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart..A609038A.Up2Date
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\refint\Walmart.DataAccess.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\Walmart.DataAccess.pdb
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\Walmart.DataAccess\obj\Release\net8.0\ref\Walmart.DataAccess.dll

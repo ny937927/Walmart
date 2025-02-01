@@ -1,4 +1,4 @@
-﻿using FoodHolic.DataAccess.Repository;
+﻿using Walmart.DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

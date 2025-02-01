@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.brma5qnwi0.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"brma5qnwi0"},{"Name":"integrity","Value":"sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="},{"Name":"label","Value":"_content/WalmartWeb/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 14:44:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vRgleqKq3DTQi7pdg96FlBmqX6BpDvGHheNnwM4ClnY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"429"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vRgleqKq3DTQi7pdg96FlBmqX6BpDvGHheNnwM4ClnY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 08:11:30 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.nrq3dw9odv.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nrq3dw9odv"},{"Name":"integrity","Value":"sha256-vRgleqKq3DTQi7pdg96FlBmqX6BpDvGHheNnwM4ClnY="},{"Name":"label","Value":"_content/WalmartWeb/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"429"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vRgleqKq3DTQi7pdg96FlBmqX6BpDvGHheNnwM4ClnY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 08:11:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 14:44:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -168,29 +168,41 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ye39k9dvz5"},{"Name":"integrity","Value":"sha256-imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE="},{"Name":"label","Value":"_content/WalmartWeb/images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"196077"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:33:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/category.awdnykt195.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\category.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"awdnykt195"},{"Name":"integrity","Value":"sha256-5hcDlgVJ9Wi\u002Bt7/4v5SpO030Q2C6eX6EIAvL2f5l41k="},{"Name":"label","Value":"_content/WalmartWeb/js/category.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225hcDlgVJ9Wi\u002Bt7/4v5SpO030Q2C6eX6EIAvL2f5l41k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 14:45:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/category.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\category.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5hcDlgVJ9Wi\u002Bt7/4v5SpO030Q2C6eX6EIAvL2f5l41k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225hcDlgVJ9Wi\u002Bt7/4v5SpO030Q2C6eX6EIAvL2f5l41k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 14:45:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OQL2yxtFiXCOI2tfEPoCo/Woxwdzgn6SgSrjpu0KyVU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1597"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022OQL2yxtFiXCOI2tfEPoCo/Woxwdzgn6SgSrjpu0KyVU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 11:26:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/category.zd5ie5xcxh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\category.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zd5ie5xcxh"},{"Name":"integrity","Value":"sha256-OQL2yxtFiXCOI2tfEPoCo/Woxwdzgn6SgSrjpu0KyVU="},{"Name":"label","Value":"_content/WalmartWeb/js/category.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1597"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022OQL2yxtFiXCOI2tfEPoCo/Woxwdzgn6SgSrjpu0KyVU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 11:26:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/company.3nlo0zjtxm.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\company.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3nlo0zjtxm"},{"Name":"integrity","Value":"sha256-caDVLsFBhM\u002BBWficRECAl\u002BiZyiKrWpIXfp4VGQWFQLc="},{"Name":"label","Value":"_content/WalmartWeb/js/company.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1581"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022caDVLsFBhM\u002BBWficRECAl\u002BiZyiKrWpIXfp4VGQWFQLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:40:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/company.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\company.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-caDVLsFBhM\u002BBWficRECAl\u002BiZyiKrWpIXfp4VGQWFQLc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1581"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022caDVLsFBhM\u002BBWficRECAl\u002BiZyiKrWpIXfp4VGQWFQLc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 12:40:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/product.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\product.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y9t0I/pqAgq1VrYSoWzM2k1NOoPrt8ClRNEOghj6ea0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y9t0I/pqAgq1VrYSoWzM2k1NOoPrt8ClRNEOghj6ea0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 08:10:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hascO6um4s\u002BTUKFRraEVczHcCtgX/XMwRRjKrrsLY90="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hascO6um4s\u002BTUKFRraEVczHcCtgX/XMwRRjKrrsLY90=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 11:26:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/product.xn0tky24dy.js">
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/product.vfghn8h5tc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\product.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xn0tky24dy"},{"Name":"integrity","Value":"sha256-Y9t0I/pqAgq1VrYSoWzM2k1NOoPrt8ClRNEOghj6ea0="},{"Name":"label","Value":"_content/WalmartWeb/js/product.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y9t0I/pqAgq1VrYSoWzM2k1NOoPrt8ClRNEOghj6ea0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 08:10:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vfghn8h5tc"},{"Name":"integrity","Value":"sha256-hascO6um4s\u002BTUKFRraEVczHcCtgX/XMwRRjKrrsLY90="},{"Name":"label","Value":"_content/WalmartWeb/js/product.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hascO6um4s\u002BTUKFRraEVczHcCtgX/XMwRRjKrrsLY90=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 11:26:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
@@ -892,13 +904,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WalmartWeb.ktug20jdei.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 09:59:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 06:57:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/WalmartWeb.ktug20jdei.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WalmartWeb.ktug20jdei.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ktug20jdei"},{"Name":"integrity","Value":"sha256-\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8="},{"Name":"label","Value":"_content/WalmartWeb/WalmartWeb.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 09:59:18 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 06:57:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

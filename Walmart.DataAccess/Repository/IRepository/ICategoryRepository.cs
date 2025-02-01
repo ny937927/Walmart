@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Walmart.DataAccess.Repository.IRepository;
 using Walmart.Model.Models;
 
-namespace FoodHolic.DataAccess.Repository.IRepository
+namespace Walmart.DataAccess.Repository.IRepository
 {
     public interface ICategoryRepository : IRepository<Category> 
     {

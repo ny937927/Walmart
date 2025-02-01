@@ -17,6 +17,16 @@ namespace WalmartWeb.DataAccess
 
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<Company> Companys { get; set; }
+
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -25,6 +35,12 @@ namespace WalmartWeb.DataAccess
               new Category { Id = 2, Name = "SciFi", DisplayOrder = 2 },
               new Category { Id = 3, Name = "History", DisplayOrder = 3 }
             );
+
+            builder.Entity<Company>().HasData(
+             new Company { Id = 1, Name = "Cognizant", City="Mumbai" },
+             new Company { Id = 2, Name = "TCS", City="Banagalore" },
+             new Company { Id = 3, Name = "Wipro" , City ="Pune"}
+           );
 
             builder.Entity<Product>().HasData(
               new Product

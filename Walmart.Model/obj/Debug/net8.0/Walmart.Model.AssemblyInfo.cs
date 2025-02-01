@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Walmart.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+532de6e01e351dab9e779fe0527349da80cb40dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7029ac4dfc445ae632e3577a45866444d9d4fcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Walmart.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Walmart.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

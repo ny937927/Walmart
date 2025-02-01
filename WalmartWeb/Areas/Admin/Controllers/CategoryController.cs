@@ -1,12 +1,15 @@
-﻿using FoodHolic.DataAccess.Repository.IRepository;
+﻿using Walmart.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Walmart.Model.Models;
+using Walmart.Utility;
 
 namespace WalmartWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _db;

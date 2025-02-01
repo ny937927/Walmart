@@ -20,7 +20,9 @@
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
                 <div class="form-floating mb-3">
-                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    @* <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" /> *@
+                    <input asp-for="Input.Password" id="password_input_field" class="form-control" required>
+                    <i onclick="togglePassword()" id="toggleIcon" class="bi bi-eye-slash"></i>
                     <label asp-for="Input.Password" class="form-label">Password</label>
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
                 </div>
@@ -42,17 +44,17 @@
                         </h2>
                     </div>
                     <div class="col-6 col-md-3">
-                        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary border form-control">
+                        <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-outline-primary border form-control">
                             Back to List
                         </a>
                     </div>
                 </div>
-                <div class ="col-md-3 " >
+                <div class ="col-md-3 pt-2" >
                     <p>
-                        <a class="btn-link form-control" id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                        <a class="card-link" id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                     </p>
                     <p>
-                        <a class="btn-link form-control" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                        <a class="card-link" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
                     </p>
                    @*  <p>
                         <a class="btn-link" id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
@@ -95,4 +97,16 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+            function togglePassword() {
+            var toggler = document.getElementById('password_input_field');
+            if(toggler.type === "password"){
+                toggler.type = "text";
+            }else{
+                toggler.type = "password";
+            }
+        }
+    </script>
 }
