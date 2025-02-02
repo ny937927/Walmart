@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.dataaccess\\repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|solutionrelative:walmart.dataaccess\\repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|solutionrelative:walmart.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\views\\users\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\views\\users\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\wwwroot\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\wwwroot\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\wwwroot\\js\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +59,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUserRepository.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Repository\\ApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "Walmart.DataAccess\\Repository\\ApplicationUserRepository.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Repository\\ApplicationUserRepository.cs",
+              "RelativeToolTip": "Walmart.DataAccess\\Repository\\ApplicationUserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwCcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:24:25.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Walmart.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Walmart.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:23:56.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
+              "RelativeDocumentMoniker": "WalmartWeb\\Program.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
+              "RelativeToolTip": "WalmartWeb\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T10:27:21.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T09:46:14.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "user.js",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\user.js",
+              "RelativeDocumentMoniker": "WalmartWeb\\wwwroot\\js\\user.js",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\user.js",
+              "RelativeToolTip": "WalmartWeb\\wwwroot\\js\\user.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-02T09:42:05.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T09:37:05.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T09:41:16.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "category.js",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\category.js",
+              "RelativeDocumentMoniker": "WalmartWeb\\wwwroot\\js\\category.js",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\category.js",
+              "RelativeToolTip": "WalmartWeb\\wwwroot\\js\\category.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-02T09:40:25.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAjwHMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T09:37:05.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Users\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Views\\Users\\Upsert.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Users\\Upsert.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Views\\Users\\Upsert.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T09:37:02.191Z",
+              "EditorCaption": ""
             }
           ]
         }
