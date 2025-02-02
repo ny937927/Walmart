@@ -81,7 +81,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
             return View(shoppingCart);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
         }

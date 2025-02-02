@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Walmart.Model.Models;
 using WalmartWeb.DataAccess;
+using Microsoft.AspNetCore.Identity;
 
 namespace Walmart.DataAccess.Repository
 {
@@ -19,6 +20,30 @@ namespace Walmart.DataAccess.Repository
             _context = db;
         }
 
-       
+        public void Update(ApplicationUser applicationUser)
+        {
+            ApplicationUser user = new()
+            {
+                UserName = applicationUser.UserName,
+                Email = applicationUser.Email,
+                Name = applicationUser.Name,
+                RoleId = applicationUser.RoleId,
+                CompanyId = applicationUser.CompanyId,
+                NormalizedEmail = applicationUser.NormalizedEmail,
+                NormalizedUserName = applicationUser.NormalizedUserName,
+                PhoneNumber = applicationUser.PhoneNumber,
+                City = applicationUser.City,
+                StreetAddress = applicationUser.StreetAddress,
+                PostalCode = applicationUser.PostalCode,
+                State = applicationUser.State,
+                SecurityStamp = applicationUser.SecurityStamp,
+                ConcurrencyStamp = applicationUser.ConcurrencyStamp,
+                PasswordHash = applicationUser.PasswordHash
+                
+
+            };
+
+            _context.Users.Update(user);
+        }
     }
 }

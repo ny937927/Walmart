@@ -184,6 +184,17 @@ namespace WalmartWeb.Areas.Identity.Pages.Account
                 user.PostalCode = Input.PostalCode;
                 user.State = Input.State;
 
+                if (String.IsNullOrEmpty(Input.Role))
+                {
+                    var role = await _roleManager.FindByNameAsync(SD.Role_Customer);
+                    if (role != null)
+                    {
+                        user.RoleId = role.Id;
+                    }
+                }
+
+               
+
                 if(Input.Role == SD.Role_Company)
                 {
                     user.CompanyId = Input.CompanyId;

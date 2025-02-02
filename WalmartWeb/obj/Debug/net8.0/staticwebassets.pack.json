@@ -69,12 +69,20 @@
       "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
       "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\user.js",
+      "PackagePath": "staticwebassets\\js\\user.js"
     },
     {
       "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\lib\\bootstrap\\LICENSE",

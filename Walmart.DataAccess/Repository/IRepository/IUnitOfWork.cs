@@ -19,6 +19,8 @@ namespace Walmart.DataAccess.Repository.IRepository
 
         IApplicationUserRepository ApplicationUser { get; }
 
+        IContactRepository Contact { get; }
+
         IOrderHeaderRepository OrderHeader { get; }
 
         IOrderDetailRepository OrderDetail { get; }

@@ -14,6 +14,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Walmart.Model.Models;
+using WalmartWeb.DataAccess;
+using Walmart.DataAccess.Repository.IRepository;
 
 namespace WalmartWeb.Areas.Identity.Pages.Account
 {
@@ -21,11 +24,13 @@ namespace WalmartWeb.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IUnitOfWork _db;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, IUnitOfWork db)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _db = db;
         }
 
         /// <summary>
@@ -115,7 +120,10 @@ namespace WalmartWeb.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    TempData["success"] = Input.Email + " LoggedIn Successful!!";
+
+                    var user = _db.ApplicationUser.Get(u => u.Email == Input.Email);
+                    //User.Identity.Name= user.Name;
+                    TempData["success"] = user.Name + " LoggedIn Successful!!";
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

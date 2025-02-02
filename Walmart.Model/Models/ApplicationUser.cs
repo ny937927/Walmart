@@ -29,6 +29,12 @@ namespace Walmart.Model.Models
         [ValidateNever]
         public Company Company { get; set; }
 
+        public string? RoleId { get; set; }
+
+        [ForeignKey("RoleId")]
+        [ValidateNever]
+        public IdentityRole Role { get; set; }
+
 
     }
 }

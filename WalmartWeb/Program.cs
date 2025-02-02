@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using WalmartWeb.DataAccess;
 using Walmart.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Walmart.Model.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddRazorPages();
 
 //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-//    .AddEntityFrameworkStores<ApplicationDbContext>();
+//   .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
 
@@ -33,9 +34,11 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

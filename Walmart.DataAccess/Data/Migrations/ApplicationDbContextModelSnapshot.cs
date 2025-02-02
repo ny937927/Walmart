@@ -323,6 +323,34 @@ namespace WalmartWeb.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Walmart.Model.Models.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("EmailId")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
             modelBuilder.Entity("Walmart.Model.Models.OrderDetail", b =>
                 {
                     b.Property<int>("Id")
@@ -604,6 +632,9 @@ namespace WalmartWeb.Data.Migrations
                     b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
@@ -611,6 +642,8 @@ namespace WalmartWeb.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasIndex("CompanyId");
+
+                    b.HasIndex("RoleId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -730,7 +763,13 @@ namespace WalmartWeb.Data.Migrations
                         .WithMany()
                         .HasForeignKey("CompanyId");
 
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId");
+
                     b.Navigation("Company");
+
+                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }
