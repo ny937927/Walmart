@@ -99,3 +99,22 @@
         </div>
     </div>
 </form>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    <script>
+        $(document).ready(function() {
+            // Prevent input of negative numbers while typing
+            $('#Count').on('input', function() {
+                var value = $(this).val();
+                if (value < 0) {
+                    $(this).val(0); // Set to 0 if a negative number is entered
+                }
+            });
+        });
+    </script>
+
+
+
+}

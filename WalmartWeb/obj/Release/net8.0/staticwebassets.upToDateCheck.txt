@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\lawn_leaf.jpg
 wwwroot\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg
 wwwroot\images\product\42accfb0-4116-4860-afb7-b9dfe5741f41.png
 wwwroot\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg
@@ -13,8 +14,11 @@ wwwroot\images\product\f172582a-6082-4137-9615-9e68895f5c5d.jpg
 wwwroot\images\product\fb1459a9-bd97-4036-8c40-99471eac6215.png
 wwwroot\images\product\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg
 wwwroot\js\category.js
+wwwroot\js\company.js
+wwwroot\js\popper.js
 wwwroot\js\product.js
 wwwroot\js\site.js
+wwwroot\js\user.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

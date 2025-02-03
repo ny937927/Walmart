@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
+using Walmart.Model;
 using Walmart.Model.Models;
 
 namespace WalmartWeb.DataAccess
@@ -28,6 +29,8 @@ namespace WalmartWeb.DataAccess
         public DbSet<OrderDetail> OrderDetails { get; set; }
 
         public DbSet<Contact> Contacts { get; set; }
+
+        public DbSet<Employee> Employees { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

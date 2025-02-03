@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
       "PackagePath": "staticwebassets\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg"
     },

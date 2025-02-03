@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Walmart.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d35fec3ce83488e5e7865eb69eb964febbf8e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcfdee3e9a7c4b16cefd3366bd6c5125bcecf0cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Walmart.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Walmart.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

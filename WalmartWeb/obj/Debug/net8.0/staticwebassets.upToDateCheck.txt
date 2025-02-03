@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\lawn_leaf.jpg
 wwwroot\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg
 wwwroot\images\product\42accfb0-4116-4860-afb7-b9dfe5741f41.png
 wwwroot\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg

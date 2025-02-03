@@ -88,6 +88,7 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\Pu
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\SQLitePCLRaw.batteries_v2.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\SQLitePCLRaw.core.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\Stripe.net.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.ClientModel.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.CodeDom.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Composition.AttributedModel.dll
@@ -104,8 +105,6 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\Pu
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Xml.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\af\Humanizer.resources.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\ar\Humanizer.resources.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\az\Humanizer.resources.dll
@@ -275,8 +274,6 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\Pu
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\Walmart.DataAccess.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\Walmart.Model.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\PubTmp\Out\Walmart.Utility.dll

@@ -106,8 +106,6 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\Sy
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\System.Security.Cryptography.Xml.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\System.Security.Permissions.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\System.Windows.Extensions.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\af\Humanizer.resources.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\ar\Humanizer.resources.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\az\Humanizer.resources.dll
@@ -277,8 +275,6 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\ru
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\Walmart.DataAccess.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\Walmart.Model.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\Walmart.Utility.dll
@@ -314,3 +310,4 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\re
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\WalmartWeb.pdb
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\WalmartWeb.genruntimeconfig.cache
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Release\net8.0\ref\WalmartWeb.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Release\net8.0\Stripe.net.dll

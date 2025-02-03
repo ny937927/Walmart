@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "96dznTiCKS64xncIGzgoyEV9IcCa6yaIBd9ak+sin/g=",
+  "Hash": "eu6QppNGmjgBnIedLIkJ2pH9eU58rfig3vmrd3sRm/I=",
   "Source": "WalmartWeb",
   "BasePath": "_content/WalmartWeb",
   "Mode": "Default",
@@ -1359,6 +1359,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/lawn_leaf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1girycgsq",
+      "Integrity": "v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
@@ -5318,6 +5339,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/lawn_leaf.jpg",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Jan 2025 12:23:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg="
+        }
+      ]
+    },
+    {
+      "Route": "images/lawn_leaf.r1girycgsq.jpg",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Jan 2025 12:23:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1girycgsq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lawn_leaf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg="
         }
       ]
     },
