@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eu6QppNGmjgBnIedLIkJ2pH9eU58rfig3vmrd3sRm/I=",
+  "Hash": "BQL6PILL/SGnE2o93pmqEkWrPLGePHLh9Vm0jf5h8g0=",
   "Source": "WalmartWeb",
   "BasePath": "_content/WalmartWeb",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "brma5qnwi0",
-      "Integrity": "STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=",
+      "Fingerprint": "3vtqn4olkq",
+      "Integrity": "r+AL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2959,7 +2959,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.brma5qnwi0.css",
+      "Route": "css/site.3vtqn4olkq.css",
       "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2969,7 +2969,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "560"
+          "Value": "1363"
         },
         {
           "Name": "Content-Type",
@@ -2977,11 +2977,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\""
+          "Value": "\"r+AL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 14:44:07 GMT"
+          "Value": "Wed, 05 Feb 2025 17:55:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2991,7 +2991,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "brma5qnwi0"
+          "Value": "3vtqn4olkq"
         },
         {
           "Name": "label",
@@ -2999,7 +2999,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="
+          "Value": "sha256-r+AL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA="
         }
       ]
     },
@@ -3014,7 +3014,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "560"
+          "Value": "1363"
         },
         {
           "Name": "Content-Type",
@@ -3022,11 +3022,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\""
+          "Value": "\"r+AL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 14:44:07 GMT"
+          "Value": "Wed, 05 Feb 2025 17:55:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3036,7 +3036,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="
+          "Value": "sha256-r+AL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA="
         }
       ]
     },

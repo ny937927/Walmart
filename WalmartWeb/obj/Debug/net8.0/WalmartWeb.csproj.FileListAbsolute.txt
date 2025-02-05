@@ -941,3 +941,4 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\Walm
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\WalmartWeb.genruntimeconfig.cache
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\ref\WalmartWeb.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\Stripe.net.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\RazorPay Core.dll

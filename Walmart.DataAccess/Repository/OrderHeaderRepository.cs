@@ -23,5 +23,33 @@ namespace Walmart.DataAccess.Repository
         {
             _context.OrderHeaders.Update(orderHeader);
         }
+
+        public void UpdateStatus(int id, string orderStatus, string? paymentStatus = null)
+        {
+            var orderHeaderFromDb = _context.OrderHeaders.FirstOrDefault(x => x.Id == id);
+            if (orderHeaderFromDb != null)
+            {
+                orderHeaderFromDb.OrderStatus = orderStatus;
+                if (!string.IsNullOrEmpty(paymentStatus))
+                {
+                    orderHeaderFromDb.PaymentStatus = paymentStatus;
+                }
+            }
+
+        }
+
+        public void UpdateStripePaymentId(int id, string sessionId, string paymentIntentId)
+        {
+            var orderHeaderFromDb = _context.OrderHeaders.FirstOrDefault(x => x.Id == id);
+            if (!string.IsNullOrEmpty(sessionId))
+            {
+                orderHeaderFromDb.SessionId = sessionId;
+            }
+            if (!string.IsNullOrEmpty(paymentIntentId))
+            {
+                orderHeaderFromDb.PaymentIntentId = paymentIntentId;
+                orderHeaderFromDb.PaymentDate = DateTime.Now;
+            }
+        }
     }
 }

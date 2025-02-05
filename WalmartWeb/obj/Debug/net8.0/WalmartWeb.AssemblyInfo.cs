@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalmartWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcfdee3e9a7c4b16cefd3366bd6c5125bcecf0cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92ffad28d3c7a2241c7010e9581d7f2d32eddac3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalmartWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalmartWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

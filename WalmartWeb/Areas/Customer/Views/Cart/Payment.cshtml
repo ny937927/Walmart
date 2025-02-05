@@ -1,0 +1,134 @@
+﻿@model RazorPayOptionModel
+
+<h1> Payment</h1>
+<form action="AfterPayment" method="post" >
+    <input type="hidden" id="orderid" name="orderid" />
+    <input type="hidden" id="signature" name="signature" />
+    <input type="hidden" id="paymentId" name="paymentId" />
+    <input type="hidden" id="paymentstatus" name="paymentstatus" />
+    <input type="hidden" id="orderheaderid" name="orderheaderid" />
+    <input type="submit" id="btnAfterPayment" hidden/>
+
+</form>
+
+
+<button id="rzp-button1" hidden>Pay</button>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var paymentNotes = @Html.Raw(Json.Serialize(Model.Notes));
+    var orderHeaderId = @Model.OrderHeaderId.ToString();
+    var options = {
+        "key": "@Model.Key", // Enter the Key ID generated from the Dashboard
+        "amount": "@Model.AmountInSubUnits", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        "currency": "INR",
+        "name": "@Model.Name", //your business name
+        "description": "@Model.ImageLogUrl",
+        "image": "@Model.ImageLogUrl",
+        "order_id": "@Model.OrderId", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+        "handler": function (response){
+            // alert(response.razorpay_payment_id);
+            // alert(response.razorpay_order_id);
+            // alert(response.razorpay_signature)
+            
+            $('#orderid').val(response.razorpay_order_id);
+            $('#signature').val(response.razorpay_signature);
+            $('#paymentId').val(response.razorpay_payment_id);
+            $('#paymentId').val(response.razorpay_payment_id);
+            $('#paymentstatus').val('Success');
+            $('#orderheaderid').val(orderHeaderId);
+            $('#btnAfterPayment').click();
+        },
+        "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information, especially their phone number
+            "name": "@Model.ProdileName", //your customer's name
+            "email": "@Model.ProfileEmail",
+            "contact": "@Model.ProfileContact"  //Provide the customer's phone number for better conversion rates
+        },
+        "notes": paymentNotes,
+        "theme": {
+            "color": "#3399cc"
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.on('payment.failed', function (response){
+            console.log(response.error);
+            $('#paymentstatus').val('Fail');
+            $('#btnAfterPayment').click();
+            // alert(response.error.code);
+            // alert(response.error.description);
+            // alert(response.error.source);
+            // alert(response.error.step);
+            // alert(response.error.reason);
+            // alert(response.error.metadata.order_id);
+            // alert(response.error.metadata.payment_id);
+    });
+    // document.getElementById('rzp-button1').onclick = function(e){
+    //     rzp1.open();
+    //     e.preventDefault();
+    // }
+    
+</script>
+
+ @section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+
+       
+    }
+    <script>
+        $(function(){
+            rzp1.open();
+        });
+    </script>
+} 
+
+
+@* <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Razorpay .Net Sample App</title>
+    <form action="Charge.aspx" method="post" name="razorpayForm">
+        <input id="razorpay_payment_id" type="hidden" name="razorpay_payment_id" />
+        <input id="razorpay_order_id" type="hidden" name="razorpay_order_id" />
+        <input id="razorpay_signature" type="hidden" name="razorpay_signature" />
+    </form>
+</head>
+<body>
+    <button id="rzp-button1">Pay with Razorpay</button>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        // Assuming @ViewBag.orderId is being passed from your server-side code (ASP.NET MVC)
+
+       
+        var options = {
+            "key": "rzp_test_J5Ak2IFloaN58A", // Enter the Key ID generated from the Dashboard
+            "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+            "currency": "INR",
+            "name": "Acme Corp",
+            "description": "Buy Green Tea",
+            "order_id":  "@ViewBag.orderId", // Ensure this dynamically uses the order ID from server-side
+            "image": "https://example.com/your_logo",
+            "callback_url": "https://localhost:7029/Customer/Cart/OrderConfirmation",
+            "redirect": true,
+            "prefill": {
+                "name": "Gaurav Kumar",
+                "email": "gaurav.kumar@example.com",
+                "contact": "919000090000"
+            },
+            "notes": {
+                "address": "Hello World"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }
+        };
+
+        var rzp = new Razorpay(options);
+
+        // Bind the click event to open Razorpay modal
+        document.getElementById('rzp-button1').onclick = function (e) {
+            rzp.open(); // Open Razorpay payment modal
+            e.preventDefault(); // Prevent default form submit
+        };
+    </script>
+</body>
+</html> *@

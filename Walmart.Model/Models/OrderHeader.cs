@@ -36,7 +36,9 @@ namespace Walmart.Model.Models
 
         public DateOnly PaymentDueDate { get; set; } // DateOnly & TimeOnly is the new data type introduce in.NET 8, it will convert to Date and Time  type only in db.
 
-        public string? PaymentIntentId {  get; set; }
+        public string? SessionId {  get; set; } // When user click on Place order, one session id get generated and look for PaymentIntentId, if we get this id within some time it means payment is successfull.
+
+        public string? PaymentIntentId {  get; set; } // If payment is successfull then, we will be getting this Id.
 
         [Required]
         public string? Name { get; set; }

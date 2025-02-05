@@ -5,6 +5,13 @@ using System.Numerics;
 using System.Security.Claims;
 using Walmart.Model.Models;
 using Walmart.Utility;
+using Stripe.Checkout;
+using System;
+using Razorpay.Api;
+using Newtonsoft.Json;
+using System.Text;
+using System.Security.Cryptography;
+using Stripe.Climate;
 
 namespace WalmartWeb.Areas.Customer.Controllers
 {
@@ -16,9 +23,12 @@ namespace WalmartWeb.Areas.Customer.Controllers
         [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
 
+        [BindProperty]
+        public OrderHeader OrderHeader { get; set; }
+
         public CartController(IUnitOfWork db)
         {
-            _db = db; 
+            _db = db;
         }
 
         public IActionResult Index()
@@ -33,7 +43,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
                 OrderHeader = new()
             };
 
-            foreach(var cart in ShoppingCartVM.ShoppingCartList)
+            foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
                 cart.Price = GetCartPrice(cart);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
@@ -42,7 +52,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
             return View(ShoppingCartVM);
         }
 
-        
+
         public IActionResult Summary()
         {
 
@@ -96,7 +106,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
 
-            if(applicationUser.CompanyId.GetValueOrDefault()  == 0)
+            if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
                 //it is a regular customer account and we need to capture payment right away.
                 ShoppingCartVM.OrderHeader.PaymentStatus = SD.PaymentStatusPending;
@@ -112,7 +122,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
             _db.OrderHeader.Add(ShoppingCartVM.OrderHeader);
             _db.Commit();
 
-            foreach(var cart in ShoppingCartVM.ShoppingCartList)
+            foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
                 OrderDetail orderDetail = new()
                 {
@@ -128,17 +138,364 @@ namespace WalmartWeb.Areas.Customer.Controllers
 
             if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
-                //it is a regular customer account and we need to capture payment right away.
+                //it is a regular customer account and we need to capture payment right away.// Strip code
+                //var domain = "https://localhost:7029/"; //Live link - https://ny937927demo1.bsite.net/
+                //var options = new Stripe.Checkout.SessionCreateOptions
+                //{
+                //    SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
+                //    CancelUrl = domain + $"customer/cart/Index",
+                //    LineItems = new List<Stripe.Checkout.SessionLineItemOptions>(),
+                //    Mode = "payment",
+                //};
+                //foreach(var item in ShoppingCartVM.ShoppingCartList)
+                //{
+                //    var sessionLineItem = new SessionLineItemOptions
+                //    {
+                //        PriceData = new SessionLineItemPriceDataOptions
+                //        {
+                //            UnitAmount = (long)(item.Price * 100), // 20.50 = 2050
+                //            Currency = "usd",
+                //            ProductData = new SessionLineItemPriceDataProductDataOptions
+                //            {
+                //                Name = item.Product.Title
+                //            }
+                //        },
+                //        Quantity = item.Count
+                //    };
+                //    options.LineItems.Add(sessionLineItem);
+                //}
+
+                //var service = new Stripe.Checkout.SessionService();
+                //Session session = service.Create(options);
+
+                //_db.OrderHeader.UpdateStripePaymentId(ShoppingCartVM.OrderHeader.Id,session.Id,session.PaymentIntentId);
+                //_db.Commit();
+                //Response.Headers.Add("Location", session.Url);
+                //return new StatusCodeResult(303);
+                //---------------------------------------------------------------------RazorPay code
+              
                 
+                //string key = "rzp_test_J5Ak2IFloaN58A";
+                //string secret = "ZT9w8JQleZCZYEhDLaj6HsOe";
+
+                //Random _random = new Random();
+                //string transactionId = _random.Next(0, 3000).ToString();
+
+                //Dictionary<string, object> input = new Dictionary<string, object>();
+                //input.Add("amount", "50000");
+                //input.Add("currency", "INR");
+                //input.Add("receipt", transactionId);
+
+                //RazorpayClient razorpayClient = new RazorpayClient(key, secret);
+                //Razorpay.Api.Order order = razorpayClient.Order.Create(input);
+                //ViewBag.orderId = order["id"].ToString();
+
+
+
+
+
+                //--------
+
+                var orderId = CreateOrder(ShoppingCartVM.OrderHeader);
+                RazorPayOptionModel razorPayOptionModel = new RazorPayOptionModel()
+                {
+                    Key = SD.PublishedKey,
+                    AmountInSubUnits = ShoppingCartVM.OrderHeader.OrderTotal,
+                    Currency = "INR",
+                    Name = ShoppingCartVM.OrderHeader.Name,
+                    Description = "Testing for RazorPya",
+                    ImageLogUrl = "",
+                    OrderId = orderId,
+                    ProdileName = ShoppingCartVM.OrderHeader.Name,
+                    ProfileContact = ShoppingCartVM.OrderHeader.PhoneNumber,
+                    ProfileEmail = "example@gmail.com",
+                    Notes = new Dictionary<string, string>()
+                    {
+                        {"note 1", "this is a payment note" },{"note 2", " here also you can add max 15 notes"}
+                    },
+                    OrderHeaderId = ShoppingCartVM.OrderHeader.Id
+
+                };
+
+                TempData["RazorPayOptionModel"] = JsonConvert.SerializeObject(razorPayOptionModel);
+
+                //------------------------------------------------------
+
+                // MakePayment();
+                return RedirectToAction(nameof(Payment));
             }
-           
-            return RedirectToAction(nameof(OrderConfirmation), new {id=ShoppingCartVM.OrderHeader.Id});
+
+            return RedirectToAction(nameof(OrderConfirmation), ShoppingCartVM.OrderHeader);
+        }
+
+        public IActionResult Payment(int Id)
+        {
+            TempData["orderHeaderId"] = null;
+
+            if (TempData["RazorPayOptionModel"] != null)
+            {
+                var razorPayOptionModel = JsonConvert.DeserializeObject<RazorPayOptionModel>(TempData["RazorPayOptionModel"].ToString());
+                TempData["orderHeaderId"] = razorPayOptionModel.OrderHeaderId;
+                return View(razorPayOptionModel);
+            }
+            
+            return View();
+        }
+
+        //public IActionResult AfterPayment()
+        //{
+        //    try
+        //    {
+        //        string orderId = string.Empty;
+        //        string paymentId = string.Empty;
+        //        string signature = string.Empty;
+        //        string paymentstatus = string.Empty;
+        //        string id = string.Empty;
+        //        bool refreshPage = false;
+
+
+
+        //        if (Request.Form.ContainsKey("orderid"))
+        //        {
+        //            orderId = Request.Form["orderid"].ToString();
+        //        }
+
+
+        //        if (Request.Form.ContainsKey("paymentId"))
+        //        {
+        //            paymentId = Request.Form["paymentId"].ToString();
+        //        }
+
+        //        if (Request.Form.ContainsKey("signature"))
+        //        {
+        //            signature = Request.Form["signature"].ToString();
+        //        }
+        //        if (Request.Form.ContainsKey("paymentstatus"))
+        //        {
+        //            paymentstatus = Request.Form["paymentstatus"].ToString();
+        //        }
+        //        if (Request.Form.ContainsKey("orderheaderid"))
+        //        {
+        //            id = Request.Form["orderheaderid"].ToString();
+        //        }
+
+        //        if (String.IsNullOrEmpty(orderId) || String.IsNullOrEmpty(paymentId) || String.IsNullOrEmpty(signature) || String.IsNullOrEmpty(paymentstatus) || String.IsNullOrEmpty(id))
+        //        {
+        //            return View("PaymentFail");
+        //        }
+
+        //        if (paymentstatus == "Fail")
+        //        {
+        //            TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+        //            return RedirectToAction("PaymentFail");
+        //        }
+
+        //        int orderHeaderId = Convert.ToInt32(id);
+        //        OrderHeader orderHeader = _db.OrderHeader.Get(u => u.Id == orderHeaderId);
+        //        var validSignature = CompareSignature(orderId, paymentId, signature);
+        //        if (validSignature)
+        //        {
+        //            _db.OrderHeader.UpdateStripePaymentId(orderHeaderId, signature, paymentId);
+        //            _db.Commit();
+        //            if (paymentstatus == "Success")
+        //            {
+        //                if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+        //                {
+        //                    _db.OrderHeader.UpdateStripePaymentId(orderHeaderId, signature, paymentId);
+        //                    _db.OrderHeader.UpdateStatus(orderHeaderId, SD.StatusApproved, SD.PaymentStatusApproved);
+        //                    _db.Commit();
+        //                }
+        //            }
+        //            return RedirectToAction(nameof(OrderConfirmation), orderHeader);
+        //        }
+        //        else
+        //        {
+        //            TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+        //            return RedirectToAction("PaymentFail");
+        //        }
+        //        return View();
+
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+        //        return RedirectToAction("PaymentFail");
+        //    }
+        //}
+
+        public IActionResult AfterPayment()
+        {
+            try
+            {
+                // Helper method to safely extract values from Request.Form
+                string GetFormValue(string key) => Request.Form.ContainsKey(key) ? Request.Form[key].ToString() : string.Empty;
+
+                // Retrieve form values
+                string orderId = GetFormValue("orderid");
+                string paymentId = GetFormValue("paymentId");
+                string signature = GetFormValue("signature");
+                string paymentstatus = GetFormValue("paymentstatus");
+                string id = GetFormValue("orderheaderid");
+
+                // Validate mandatory fields
+                if (string.IsNullOrEmpty(orderId) || string.IsNullOrEmpty(paymentId) ||
+                    string.IsNullOrEmpty(signature) || string.IsNullOrEmpty(paymentstatus) || string.IsNullOrEmpty(id))
+                {
+                    return View("PaymentFail");
+                }
+
+                // Check payment status and handle failure immediately
+                if (paymentstatus == "Fail")
+                {
+                    TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+                    return RedirectToAction("PaymentFail");
+                }
+
+                int orderHeaderId = Convert.ToInt32(id);
+                var orderHeader = _db.OrderHeader.Get(u => u.Id == orderHeaderId);
+
+                // Validate the signature
+                if (!CompareSignature(orderId, paymentId, signature))
+                {
+                    TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+                    return RedirectToAction("PaymentFail");
+                }
+
+                // Update payment info in the database
+                _db.OrderHeader.UpdateStripePaymentId(orderHeaderId, signature, paymentId);
+
+                // Only update the status if the payment was successful and not delayed
+                if (paymentstatus == "Success" && orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+                {
+                    _db.OrderHeader.UpdateStatus(orderHeaderId, SD.StatusApproved, SD.PaymentStatusApproved);
+                }
+
+                _db.Commit();
+
+                // Redirect to OrderConfirmation view
+                return RedirectToAction(nameof(OrderConfirmation), new { id = orderHeaderId });
+            }
+            catch (Exception ex)
+            {
+                // Log exception (you may want to log this exception)
+                TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
+                return RedirectToAction("PaymentFail");
+            }
         }
 
 
-
-        public IActionResult OrderConfirmation(int? id)
+        public IActionResult PaymentFail()
         {
+            return View();
+        }
+
+        private bool CompareSignature(string orderId,string paymentId,string signature)
+        {
+            var text = orderId + "|" + paymentId;
+            var secret = SD.SecretKey;
+            var generatedSignature = CalculateSHA256(text, secret);
+            if (generatedSignature == signature)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+
+            }
+        }
+
+        private string CalculateSHA256(string text, string secret)
+        {
+            string result = "";
+            var enc = Encoding.Default;
+            byte[] 
+            baText2BeHashed = enc.GetBytes(text),
+            baSalt = enc.GetBytes(secret);
+            HMACSHA256 hasher = new HMACSHA256(baSalt);
+            byte[] baHashedText = hasher.ComputeHash(baText2BeHashed);
+            result = string.Join("", baHashedText.ToList().Select(b => b.ToString("x2")).ToArray());
+            return result;
+
+        }
+            
+
+        private string CreateOrder(OrderHeader orderHeader)
+        {
+            try
+            {
+                RazorpayClient razorpayClient = new RazorpayClient(SD.PublishedKey, SD.SecretKey);
+                Dictionary<string, object> options = new Dictionary<string, object>();
+                options.Add("amount", (orderHeader.OrderTotal * 100).ToString()   );
+                options.Add("currency", "INR");
+                options.Add("receipt", orderHeader.Id.ToString());
+
+                Razorpay.Api.Order orderResponse = razorpayClient.Order.Create(options);
+                var orderId = orderResponse.Attributes["id"].ToString();
+                return orderId;
+
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        //public IActionResult Payment(int Id)
+        //{
+
+        //    //ClaimsIdentity claimsIdentity = (ClaimsIdentity?)User.Identity;
+        //    //string userId = (claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier))?.Value;
+
+
+        //    //OrderHeader orderHeader = _db.OrderHeader.Get(x => x.Id == Id);
+
+           
+
+
+        //    return View();
+        //}
+
+        //used for RazorPay payment
+        //[HttpPost]
+        //public IActionResult Payment(string razorpay_payment_id,string razorpay_order_id,string razorpay_signature)
+        //{
+        //   Dictionary<string,string> attributes = new Dictionary<string,string>();
+        //    attributes.Add("razorpay_payment_id", razorpay_payment_id);
+        //    attributes.Add("razorpay_order_id", razorpay_order_id);
+        //    attributes.Add("razorpay_signature", razorpay_signature);
+
+        //    Utils.verifyPaymentSignature(attributes);
+
+        //    string transactionId = razorpay_payment_id;
+        //    string orderId = razorpay_order_id;
+
+        //    return View("OrderConfirmation");
+        //}
+
+        public IActionResult OrderConfirmation(int id)
+        {
+            OrderHeader orderHeader = _db.OrderHeader.Get(u => u.Id == id, includeProperties: "ApplicationUser");
+            //if(orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+            //{
+            //    //this is an order by customer
+            //    var service = new SessionService();
+            //    Session session = service.Get(orderHeader.SessionId);
+
+            //    if(session.PaymentStatus.ToLower() == "paid")
+            //    {
+            //        _db.OrderHeader.UpdateStripePaymentId(id, session.Id, session.PaymentIntentId);
+            //        _db.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
+            //        _db.Commit();
+            //    }
+
+            //}
+
+            List<ShoppingCart> shoppingCarts = _db.ShoppingCart.GetAll(u => u.ApplicationUserId  == orderHeader.ApplicationUserId).ToList();
+            _db.ShoppingCart.RemoveRange(shoppingCarts);
+            _db.Commit();
+
             return View(id);
         }
 
@@ -154,7 +511,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
         public IActionResult Minus(int? cartId)
         {
             ShoppingCart cartFromDb = _db.ShoppingCart.Get(u => u.Id == cartId);
-            if(cartFromDb.Count <= 1)
+            if (cartFromDb.Count <= 1)
             {
                 //remove from cart
                 _db.ShoppingCart.Remove(cartFromDb);
@@ -165,8 +522,8 @@ namespace WalmartWeb.Areas.Customer.Controllers
                 cartFromDb.Count -= 1;
                 _db.ShoppingCart.Update(cartFromDb);
             }
-           
-            
+
+
             _db.Commit();
             return RedirectToAction(nameof(Index));
         }
@@ -188,7 +545,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
             }
             else
             {
-                if(shoppingCart.Count <= 100)
+                if (shoppingCart.Count <= 100)
                 {
                     return shoppingCart.Product.Price50;
                 }
@@ -198,5 +555,26 @@ namespace WalmartWeb.Areas.Customer.Controllers
                 }
             }
         }
+
+       
+
+        //private void MakePayment()
+        //{
+        //    string key = "rzp_test_J5Ak2IFloaN58A\r\n";
+        //    string secret = "ZT9w8JQleZCZYEhDLaj6HsOe\r\n";
+
+        //    Random _random = new Random();
+        //    string transactionId = _random.Next(0, 3000).ToString();
+
+        //    Dictionary<string,object> input = new Dictionary<string,object>();
+        //    input.Add("amount", );
+        //    input.Add("currency","INR");
+        //    input.Add("receipt", transactionId);
+
+        //    RazorpayClient razorpayClient = new RazorpayClient(key,secret);
+        //    Razorpay.Api.Order order = razorpayClient.Order.Create(input);
+        //    ViewBag.orderId = order["id"].toString();
+
+        //}
     }
 }

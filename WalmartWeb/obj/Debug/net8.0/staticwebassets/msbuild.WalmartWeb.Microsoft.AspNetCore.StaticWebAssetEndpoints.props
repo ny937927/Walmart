@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.brma5qnwi0.css">
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.3vtqn4olkq.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"brma5qnwi0"},{"Name":"integrity","Value":"sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="},{"Name":"label","Value":"_content/WalmartWeb/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 14:44:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3vtqn4olkq"},{"Name":"integrity","Value":"sha256-r\u002BAL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA="},{"Name":"label","Value":"_content/WalmartWeb/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r\u002BAL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 17:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"560"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022STFfS2y7tHD1B/W6F6rhFozn8oBzZMQ/LLHVMFbkTnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Jan 2025 14:44:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r\u002BAL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r\u002BAL2IyliLBWkUvHOPQpaTl677AvDHH2xHYIwbGBzmA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 17:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

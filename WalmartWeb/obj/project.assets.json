@@ -3126,6 +3126,18 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "RazorPay.Core/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/RazorPay Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/RazorPay Core.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "type": "package",
         "dependencies": {
@@ -8676,6 +8688,19 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "RazorPay.Core/1.0.2": {
+      "sha512": "vRyVsundeyWrQT7L4IyCHilcEwNpibm78vVp3HD3xpuFWhjlZ7wMxDOUdxcjgdeJWbXa52DSTG7OyH2LUuE0lA==",
+      "type": "package",
+      "path": "razorpay.core/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netcoreapp3.1/RazorPay Core.dll",
+        "razorpay.core.1.0.2.nupkg.sha512",
+        "razorpay.core.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -10257,6 +10282,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "RazorPay.Core >= 1.0.2",
       "Stripe.net >= 47.3.0",
       "Walmart.DataAccess >= 1.0.0",
       "Walmart.Model >= 1.0.0",
@@ -10351,6 +10377,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "RazorPay.Core": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "Stripe.net": {
             "target": "Package",

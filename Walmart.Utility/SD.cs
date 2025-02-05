@@ -28,5 +28,10 @@ namespace Walmart.Utility
         public const string PaymentStatusDelayedPayment = "ApprovedForDeplayedPayment";
         public const string PaymentStatusRejected = "Rejected";
 
+        //RazorPay Secret Key 
+        public const string PublishedKey = "rzp_test_J5Ak2IFloaN58A";
+        public const string SecretKey = "ZT9w8JQleZCZYEhDLaj6HsOe";
+
+
     }
 }

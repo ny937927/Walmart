@@ -3,72 +3,44 @@
   "WorkspaceRootPath": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7C3D07D-50BA-44C4-974A-FDBFEB8EBAB3}|Walmart.DataAccess\\Walmart.DataAccess.csproj|solutionrelative:walmart.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|solutionrelative:walmart.model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.model\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|solutionrelative:walmart.model\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.model\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|solutionrelative:walmart.model\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.model\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D86797-C537-4F99-A047-7C5642FB25F2}|Walmart.Model\\Walmart.Model.csproj|solutionrelative:walmart.model\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\views\\category\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\views\\category\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\walmartweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\walmartweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4D06514-7EAA-4C6D-9F92-B8646EFBF01B}|Walmart.Utility\\Walmart.Utility.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmart.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4D06514-7EAA-4C6D-9F92-B8646EFBF01B}|Walmart.Utility\\Walmart.Utility.csproj|solutionrelative:walmart.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|d:\\dailypractise\\jarny projects\\walmart\\walmart\\walmartweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A144C22-80E5-44CD-BDB6-BA8F5F928419}|WalmartWeb\\WalmartWeb.csproj|solutionrelative:walmartweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,145 +62,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Walmart.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Walmart.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:23:19.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Employee.cs",
-              "RelativeDocumentMoniker": "Walmart.Model\\Employee.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Employee.cs",
-              "RelativeToolTip": "Walmart.Model\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:19:26.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "Walmart.Model\\Models\\Contact.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Contact.cs",
-              "RelativeToolTip": "Walmart.Model\\Models\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:18:42.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Company.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Company.cs",
-              "RelativeDocumentMoniker": "Walmart.Model\\Models\\Company.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Company.cs",
-              "RelativeToolTip": "Walmart.Model\\Models\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:18:37.151Z",
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WalmartWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WalmartWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-05T17:48:57.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAE4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T17:31:53.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Walmart.Model\\Models\\Category.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Model\\Models\\Category.cs",
-              "RelativeToolTip": "Walmart.Model\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:16:31.231Z",
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T16:27:55.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentFail.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\PaymentFail.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\PaymentFail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T17:15:14.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T14:15:16.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:19:02.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WalmartWeb",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\WalmartWeb.csproj",
-              "RelativeDocumentMoniker": "WalmartWeb\\WalmartWeb.csproj",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\WalmartWeb.csproj",
-              "RelativeToolTip": "WalmartWeb\\WalmartWeb.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-03T12:30:55.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:12:23.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StripeSettings.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Utility\\StripeSettings.cs",
-              "RelativeDocumentMoniker": "Walmart.Utility\\StripeSettings.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Utility\\StripeSettings.cs",
-              "RelativeToolTip": "Walmart.Utility\\StripeSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:27:35.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
-              "RelativeDocumentMoniker": "WalmartWeb\\Program.cs",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
-              "RelativeToolTip": "WalmartWeb\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:26:44.616Z",
+              "WhenOpened": "2025-02-05T15:41:12.719Z",
               "EditorCaption": ""
             },
             {
@@ -239,74 +133,61 @@
               "RelativeDocumentMoniker": "WalmartWeb\\appsettings.json",
               "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\appsettings.json",
               "RelativeToolTip": "WalmartWeb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-03T12:24:56.184Z",
+              "WhenOpened": "2025-02-05T13:37:30.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Utility\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "Walmart.Utility\\StripeSettings.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\Walmart.Utility\\StripeSettings.cs",
+              "RelativeToolTip": "Walmart.Utility\\StripeSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T13:33:40.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Payment.cshtml",
+              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Payment.cshtml",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Payment.cshtml",
+              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Payment.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T12:01:37.361Z",
+              "WhenOpened": "2025-02-04T15:10:55.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Category\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Admin\\Views\\Category\\Upsert.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Admin\\Views\\Category\\Upsert.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Admin\\Views\\Category\\Upsert.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:19:56.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:13:42.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Summary.cshtml",
-              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T11:42:47.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WalmartWeb\\Areas\\Customer\\Controllers\\CartController.cs",
               "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeToolTip": "WalmartWeb\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAYwHQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACwBAAAAAAAAAAAmwEgBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:40:26.829Z",
+              "WhenOpened": "2025-02-04T13:15:53.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
+              "RelativeDocumentMoniker": "WalmartWeb\\Program.cs",
+              "ToolTip": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\Program.cs",
+              "RelativeToolTip": "WalmartWeb\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:15:27.883Z",
               "EditorCaption": ""
             }
           ]
