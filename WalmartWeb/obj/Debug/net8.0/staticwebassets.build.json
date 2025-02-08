@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQL6PILL/SGnE2o93pmqEkWrPLGePHLh9Vm0jf5h8g0=",
+  "Hash": "Hxs/e7vxcTZraoMi5UssV3vx2h4lYsluozQZCINo8As=",
   "Source": "WalmartWeb",
   "BasePath": "_content/WalmartWeb",
   "Mode": "Default",
@@ -1361,6 +1361,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\icons8-order.gif",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/icons8-order#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yjrp6bg9es",
+      "Integrity": "vmkgqw9CWlw13aWgFuBDVJFGEEiJplP2MwIKivoefaU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icons8-order.gif"
+    },
+    {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
@@ -1380,6 +1401,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\payment.jpg",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/payment#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzqnim6n6k",
+      "Integrity": "pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\payment.jpg"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
@@ -1674,6 +1716,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\order.js",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "js/order#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zg1ed3zjx0",
+      "Integrity": "8wcWQ32YTm5xDx/iTzLj+fJeh0FzaZGCG/siKdMRlAw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\popper.js",
@@ -5343,6 +5406,88 @@
       ]
     },
     {
+      "Route": "images/icons8-order.gif",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\icons8-order.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmkgqw9CWlw13aWgFuBDVJFGEEiJplP2MwIKivoefaU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 12:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmkgqw9CWlw13aWgFuBDVJFGEEiJplP2MwIKivoefaU="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons8-order.yjrp6bg9es.gif",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\icons8-order.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmkgqw9CWlw13aWgFuBDVJFGEEiJplP2MwIKivoefaU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 12:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjrp6bg9es"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons8-order.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmkgqw9CWlw13aWgFuBDVJFGEEiJplP2MwIKivoefaU="
+        }
+      ]
+    },
+    {
       "Route": "images/lawn_leaf.jpg",
       "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\lawn_leaf.jpg",
       "Selectors": [],
@@ -5421,6 +5566,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-v6T3Kn35L6tFufzUrWBb3paRq4gqwg/hg/ua37dOipg="
+        }
+      ]
+    },
+    {
+      "Route": "images/payment.fzqnim6n6k.jpg",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\payment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:29:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzqnim6n6k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/payment.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg="
+        }
+      ]
+    },
+    {
+      "Route": "images/payment.jpg",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\payment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 04:29:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg="
         }
       ]
     },
@@ -6569,6 +6796,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-caDVLsFBhM+BWficRECAl+iZyiKrWpIXfp4VGQWFQLc="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wcWQ32YTm5xDx/iTzLj+fJeh0FzaZGCG/siKdMRlAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 13:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wcWQ32YTm5xDx/iTzLj+fJeh0FzaZGCG/siKdMRlAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.zg1ed3zjx0.js",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wcWQ32YTm5xDx/iTzLj+fJeh0FzaZGCG/siKdMRlAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 13:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zg1ed3zjx0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wcWQ32YTm5xDx/iTzLj+fJeh0FzaZGCG/siKdMRlAw="
         }
       ]
     },
@@ -11597,7 +11906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 11:20:14 GMT"
+          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11634,7 +11943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 11:20:14 GMT"
+          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11679,7 +11988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 11:20:14 GMT"
+          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11724,7 +12033,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 11:20:14 GMT"
+          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
         },
         {
           "Name": "Cache-Control",

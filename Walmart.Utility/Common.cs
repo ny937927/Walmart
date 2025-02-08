@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Razor;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -12,7 +13,7 @@ namespace Walmart.Utility
     public class Common
     {
 
-
+      
         public Bitmap GetResizeImage(Bitmap bm, int newWidth, int newHeight)
         {
             var newSize = new Size(newWidth, newHeight);

@@ -717,9 +717,11 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\NuGe
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\NuGet.ProjectModel.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\NuGet.Protocol.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\RazorPay Core.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\Stripe.net.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\System.ClientModel.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\System.CodeDom.dll
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -940,5 +942,3 @@ D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\refi
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\WalmartWeb.pdb
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\WalmartWeb.genruntimeconfig.cache
 D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\obj\Debug\net8.0\ref\WalmartWeb.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\Stripe.net.dll
-D:\DailyPractise\JARNY Projects\Walmart\Walmart\WalmartWeb\bin\Debug\net8.0\RazorPay Core.dll

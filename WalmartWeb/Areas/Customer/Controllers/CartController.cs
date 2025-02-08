@@ -208,7 +208,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
                     OrderId = orderId,
                     ProdileName = ShoppingCartVM.OrderHeader.Name,
                     ProfileContact = ShoppingCartVM.OrderHeader.PhoneNumber,
-                    ProfileEmail = "example@gmail.com",
+                    ProfileEmail = applicationUser.Email,
                     Notes = new Dictionary<string, string>()
                     {
                         {"note 1", "this is a payment note" },{"note 2", " here also you can add max 15 notes"}
@@ -241,88 +241,6 @@ namespace WalmartWeb.Areas.Customer.Controllers
             
             return View();
         }
-
-        //public IActionResult AfterPayment()
-        //{
-        //    try
-        //    {
-        //        string orderId = string.Empty;
-        //        string paymentId = string.Empty;
-        //        string signature = string.Empty;
-        //        string paymentstatus = string.Empty;
-        //        string id = string.Empty;
-        //        bool refreshPage = false;
-
-
-
-        //        if (Request.Form.ContainsKey("orderid"))
-        //        {
-        //            orderId = Request.Form["orderid"].ToString();
-        //        }
-
-
-        //        if (Request.Form.ContainsKey("paymentId"))
-        //        {
-        //            paymentId = Request.Form["paymentId"].ToString();
-        //        }
-
-        //        if (Request.Form.ContainsKey("signature"))
-        //        {
-        //            signature = Request.Form["signature"].ToString();
-        //        }
-        //        if (Request.Form.ContainsKey("paymentstatus"))
-        //        {
-        //            paymentstatus = Request.Form["paymentstatus"].ToString();
-        //        }
-        //        if (Request.Form.ContainsKey("orderheaderid"))
-        //        {
-        //            id = Request.Form["orderheaderid"].ToString();
-        //        }
-
-        //        if (String.IsNullOrEmpty(orderId) || String.IsNullOrEmpty(paymentId) || String.IsNullOrEmpty(signature) || String.IsNullOrEmpty(paymentstatus) || String.IsNullOrEmpty(id))
-        //        {
-        //            return View("PaymentFail");
-        //        }
-
-        //        if (paymentstatus == "Fail")
-        //        {
-        //            TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
-        //            return RedirectToAction("PaymentFail");
-        //        }
-
-        //        int orderHeaderId = Convert.ToInt32(id);
-        //        OrderHeader orderHeader = _db.OrderHeader.Get(u => u.Id == orderHeaderId);
-        //        var validSignature = CompareSignature(orderId, paymentId, signature);
-        //        if (validSignature)
-        //        {
-        //            _db.OrderHeader.UpdateStripePaymentId(orderHeaderId, signature, paymentId);
-        //            _db.Commit();
-        //            if (paymentstatus == "Success")
-        //            {
-        //                if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
-        //                {
-        //                    _db.OrderHeader.UpdateStripePaymentId(orderHeaderId, signature, paymentId);
-        //                    _db.OrderHeader.UpdateStatus(orderHeaderId, SD.StatusApproved, SD.PaymentStatusApproved);
-        //                    _db.Commit();
-        //                }
-        //            }
-        //            return RedirectToAction(nameof(OrderConfirmation), orderHeader);
-        //        }
-        //        else
-        //        {
-        //            TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
-        //            return RedirectToAction("PaymentFail");
-        //        }
-        //        return View();
-
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        TempData["error"] = "Payment Failed! Oops! Something went wrong while processing your payment.";
-        //        return RedirectToAction("PaymentFail");
-        //    }
-        //}
 
         public IActionResult AfterPayment()
         {
@@ -384,6 +302,26 @@ namespace WalmartWeb.Areas.Customer.Controllers
             }
         }
 
+        public IActionResult Capture()
+        {
+            return View();
+        }
+
+        //To Authorize payment Manually...
+        public IActionResult CapturePayment(string paymentId)
+        {
+            RazorpayClient client = new RazorpayClient(SD.PublishedKey, SD.SecretKey);
+            Razorpay.Api.Payment payment = client.Payment.Fetch(paymentId);
+            var amount = payment.Attributes["amount"];
+            var currency = payment.Attributes["currency"];
+
+            Dictionary<string,object> options = new Dictionary<string, object>();
+            options.Add("amount", amount);
+            options.Add("currency", currency);
+            Razorpay.Api.Payment paymentCapture = payment.Capture(options);
+
+            return View("Success");
+        }
 
         public IActionResult PaymentFail()
         {
@@ -429,6 +367,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
                 Dictionary<string, object> options = new Dictionary<string, object>();
                 options.Add("amount", (orderHeader.OrderTotal * 100).ToString()   );
                 options.Add("currency", "INR");
+                options.Add("payment_capture", "1"); // 0 -Manual payment Authorize  , 1- Auto payment Authorize capture
                 options.Add("receipt", orderHeader.Id.ToString());
 
                 Razorpay.Api.Order orderResponse = razorpayClient.Order.Create(options);
@@ -556,25 +495,6 @@ namespace WalmartWeb.Areas.Customer.Controllers
             }
         }
 
-       
-
-        //private void MakePayment()
-        //{
-        //    string key = "rzp_test_J5Ak2IFloaN58A\r\n";
-        //    string secret = "ZT9w8JQleZCZYEhDLaj6HsOe\r\n";
-
-        //    Random _random = new Random();
-        //    string transactionId = _random.Next(0, 3000).ToString();
-
-        //    Dictionary<string,object> input = new Dictionary<string,object>();
-        //    input.Add("amount", );
-        //    input.Add("currency","INR");
-        //    input.Add("receipt", transactionId);
-
-        //    RazorpayClient razorpayClient = new RazorpayClient(key,secret);
-        //    Razorpay.Api.Order order = razorpayClient.Order.Create(input);
-        //    ViewBag.orderId = order["id"].toString();
-
-        //}
+      
     }
 }

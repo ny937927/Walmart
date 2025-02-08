@@ -1,15 +1,154 @@
 ﻿@model RazorPayOptionModel
 
-<h1> Payment</h1>
-<form action="AfterPayment" method="post" >
-    <input type="hidden" id="orderid" name="orderid" />
-    <input type="hidden" id="signature" name="signature" />
-    <input type="hidden" id="paymentId" name="paymentId" />
-    <input type="hidden" id="paymentstatus" name="paymentstatus" />
-    <input type="hidden" id="orderheaderid" name="orderheaderid" />
-    <input type="submit" id="btnAfterPayment" hidden/>
 
-</form>
+
+
+@{
+    ViewData["Title"] = "Payment Processing";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  <!-- For icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        /* Style for the Modal */
+        .modal-backdrop {
+            z-index: 1040 !important;
+        }
+
+        .modal-content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style the progress bar */
+        .progress-bar {
+            width: 0%;
+            height: 30px;
+            background-color: #4CAF50;
+        }
+
+        .progress-container {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        /* Loader Style */
+        .spinner-border {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire screen */
+            z-index: -1; /* Makes sure the image stays behind other content */
+        }
+    </style>
+</head>
+<body>
+    <!-- Image that will act as the background -->
+   
+
+
+    <form action="AfterPayment" method="post">
+        <input type="hidden" id="orderid" name="orderid" />
+        <input type="hidden" id="signature" name="signature" />
+        <input type="hidden" id="paymentId" name="paymentId" />
+        <input type="hidden" id="paymentstatus" name="paymentstatus" />
+        <input type="hidden" id="orderheaderid" name="orderheaderid" />
+        <input type="submit" id="btnAfterPayment" hidden />
+
+        <div class="col-12 text-center">
+           
+            <img src="~/images/payment.jpg" width="85%" height="100%" />
+        </div>
+    <!-- Payment Processing Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Payment in Process</h5>
+                        @* <button asp-action="Summary" type="button" class="close" data-dismiss="modal" aria-label="Close"> *@
+                        <a asp-action="Summary" class="close">
+                        <span aria-hidden="true">&times;</span>
+                        </a>
+                </div>
+                <div class="modal-body">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <p>Please wait while we process your payment...</p>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <br/>
+                        <div class="text-center">
+                            <a asp-action="Summary" class="btn btn-outline-danger btn-sm">Cancel Payment</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <!-- Script to control progress bar and modal -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Show modal when the page loads
+            $('#paymentModal').modal('show');
+
+            // Simulate the progress bar during the payment process
+            var progress = 0;
+            var progressInterval = setInterval(function () {
+                if (progress < 100) {
+                    progress += 2;
+                    $('#progressBar').css('width', progress + '%');
+                } else {
+                    clearInterval(progressInterval);
+                    setTimeout(function () {
+                       // $('#paymentModal').modal('hide');  // Hide modal after payment process is done
+                        
+                    }, 500);  // Wait for a brief moment after progress reaches 100% before hiding modal
+                }
+            }, 1000);  // Update progress every 1 second
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <button id="rzp-button1" hidden>Pay</button>
@@ -80,55 +219,3 @@
         });
     </script>
 } 
-
-
-@* <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Razorpay .Net Sample App</title>
-    <form action="Charge.aspx" method="post" name="razorpayForm">
-        <input id="razorpay_payment_id" type="hidden" name="razorpay_payment_id" />
-        <input id="razorpay_order_id" type="hidden" name="razorpay_order_id" />
-        <input id="razorpay_signature" type="hidden" name="razorpay_signature" />
-    </form>
-</head>
-<body>
-    <button id="rzp-button1">Pay with Razorpay</button>
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    <script>
-        // Assuming @ViewBag.orderId is being passed from your server-side code (ASP.NET MVC)
-
-       
-        var options = {
-            "key": "rzp_test_J5Ak2IFloaN58A", // Enter the Key ID generated from the Dashboard
-            "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-            "currency": "INR",
-            "name": "Acme Corp",
-            "description": "Buy Green Tea",
-            "order_id":  "@ViewBag.orderId", // Ensure this dynamically uses the order ID from server-side
-            "image": "https://example.com/your_logo",
-            "callback_url": "https://localhost:7029/Customer/Cart/OrderConfirmation",
-            "redirect": true,
-            "prefill": {
-                "name": "Gaurav Kumar",
-                "email": "gaurav.kumar@example.com",
-                "contact": "919000090000"
-            },
-            "notes": {
-                "address": "Hello World"
-            },
-            "theme": {
-                "color": "#3399cc"
-            }
-        };
-
-        var rzp = new Razorpay(options);
-
-        // Bind the click event to open Razorpay modal
-        document.getElementById('rzp-button1').onclick = function (e) {
-            rzp.open(); // Open Razorpay payment modal
-            e.preventDefault(); // Prevent default form submit
-        };
-    </script>
-</body>
-</html> *@
