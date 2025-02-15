@@ -258,6 +258,7 @@ namespace WalmartWeb.Areas.Admin.Controllers
                         //});
 
                         //After refund successfull please update status for customer
+                        TempData["success"] = "Order Cancelled Successfully!! You will be recieving your Refund within 3-4 Business day. Thank you for Shopping!";
                         _db.OrderHeader.UpdateStatus(orderHeaderFromDb.Id, SD.StatusCancelled, SD.StatusRefunded);
                     }
 
@@ -277,10 +278,11 @@ namespace WalmartWeb.Areas.Admin.Controllers
             else
             {
                 _db.OrderHeader.UpdateStatus(orderHeaderFromDb.Id, SD.StatusCancelled, SD.StatusCancelled);
+                TempData["success"] = "Order Cancelled Successfully!!";
 
             }
             _db.Commit();
-            TempData["success"] = "Order Cancelled Successfully!!";
+            
             return RedirectToAction(nameof(Details), new { orderId = OrderVM.OrderHeader.Id });
 
         }

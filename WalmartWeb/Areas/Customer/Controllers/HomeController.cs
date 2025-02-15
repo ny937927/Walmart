@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Walmart.Model.Models;
+using Walmart.Utility;
+using Microsoft.AspNetCore.Http;
 
 namespace WalmartWeb.Areas.Customer.Controllers
 {
@@ -22,6 +24,16 @@ namespace WalmartWeb.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
+
+            var claimsIdentity = (ClaimsIdentity?)User.Identity;
+            var claim = (claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier));
+            if (claim != null)
+            {
+                HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).Count());
+
+            }
+
+
             IEnumerable<Product> products = _db.Product.GetAll(includeProperties: "Category");
             //string wwwRootPath = _webHostEnvironment.WebRootPath;
             //string productPath = Path.Combine(wwwRootPath, @"images\product");
@@ -32,6 +44,9 @@ namespace WalmartWeb.Areas.Customer.Controllers
             //        //log Image file resize successful!
             //    }
             //}
+
+
+
             return View(products);
         }
 
@@ -65,6 +80,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
                     //Already exist the cart data with the same product, we need to update
                     cartFromDb.Count += shoppingCart.Count;
                     _db.ShoppingCart.Update(cartFromDb);
+                    _db.Commit();
 
                 }
                 else
@@ -72,8 +88,10 @@ namespace WalmartWeb.Areas.Customer.Controllers
                     //Add to cart
 
                     _db.ShoppingCart.Add(shoppingCart);
+                    _db.Commit();
+                    HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == shoppingCart.ApplicationUserId).Count());
                 }
-                _db.Commit();
+               
 
                 TempData["success"] = "Cart Updated successfully!!";
                 return RedirectToAction(nameof(Index)); //Instead of ""Index we can write nameof(Index)

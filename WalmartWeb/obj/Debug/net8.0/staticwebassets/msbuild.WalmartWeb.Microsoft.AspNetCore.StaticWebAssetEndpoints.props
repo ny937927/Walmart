@@ -60,17 +60,89 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"48414"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pY0PhNUgVuG0vYwSCeFcIIhjgwuUYV/mYhMlTME1Uxg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 04:29:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.ecb6f2vn57.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ecb6f2vn57"},{"Name":"integrity","Value":"sha256-Ehr6l3Abfe\u002Bw/m\u002BtZx\u002BlFKvpwbF7MtDBHEgF8xRHHDI="},{"Name":"label","Value":"_content/WalmartWeb/images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"83460"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ehr6l3Abfe\u002Bw/m\u002BtZx\u002BlFKvpwbF7MtDBHEgF8xRHHDI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 09:46:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-36gRenxkMJUMGI3wjrXaHm\u002B/ZlVv5R6VlBPw7ggFua0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"184461"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002236gRenxkMJUMGI3wjrXaHm\u002B/ZlVv5R6VlBPw7ggFua0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:16:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.rx6j3v875z.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ehr6l3Abfe\u002Bw/m\u002BtZx\u002BlFKvpwbF7MtDBHEgF8xRHHDI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"83460"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ehr6l3Abfe\u002Bw/m\u002BtZx\u002BlFKvpwbF7MtDBHEgF8xRHHDI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 09:46:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rx6j3v875z"},{"Name":"integrity","Value":"sha256-36gRenxkMJUMGI3wjrXaHm\u002B/ZlVv5R6VlBPw7ggFua0="},{"Name":"label","Value":"_content/WalmartWeb/images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"184461"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002236gRenxkMJUMGI3wjrXaHm\u002B/ZlVv5R6VlBPw7ggFua0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:16:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.kxs5o7pzcz.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\14f47c7e-89ad-42e4-a1a5-79de4964f084.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kxs5o7pzcz"},{"Name":"integrity","Value":"sha256-SPr2TS7yWyKH\u002B/pojblETFMQzBK6aVNLmkthC/GqBEY="},{"Name":"label","Value":"_content/WalmartWeb/images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2321"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SPr2TS7yWyKH\u002B/pojblETFMQzBK6aVNLmkthC/GqBEY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\14f47c7e-89ad-42e4-a1a5-79de4964f084.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SPr2TS7yWyKH\u002B/pojblETFMQzBK6aVNLmkthC/GqBEY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2321"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SPr2TS7yWyKH\u002B/pojblETFMQzBK6aVNLmkthC/GqBEY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15923"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:34:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.st8v9bbol3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"st8v9bbol3"},{"Name":"integrity","Value":"sha256-cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4="},{"Name":"label","Value":"_content/WalmartWeb/images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15923"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:34:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8155"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:35:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.yjeh1fkvzy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yjeh1fkvzy"},{"Name":"integrity","Value":"sha256-El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk="},{"Name":"label","Value":"_content/WalmartWeb/images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8155"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:35:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.n1yshujszv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n1yshujszv"},{"Name":"integrity","Value":"sha256-W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo="},{"Name":"label","Value":"_content/WalmartWeb/images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7536"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:48:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7536"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:48:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.moq4434h7r.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"moq4434h7r"},{"Name":"integrity","Value":"sha256-6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w="},{"Name":"label","Value":"_content/WalmartWeb/images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14198"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00226q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:52:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14198"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00226q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:52:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.9hfy1zqccy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9hfy1zqccy"},{"Name":"integrity","Value":"sha256-I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c="},{"Name":"label","Value":"_content/WalmartWeb/images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42940"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:10:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42940"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:10:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/42accfb0-4116-4860-afb7-b9dfe5741f41.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\42accfb0-4116-4860-afb7-b9dfe5741f41.png'))</AssetFile>
@@ -84,29 +156,77 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ta44cbam0i"},{"Name":"integrity","Value":"sha256-O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM="},{"Name":"label","Value":"_content/WalmartWeb/images/product/42accfb0-4116-4860-afb7-b9dfe5741f41.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51396"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 09:47:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/49423679-7b6f-46cf-b787-5061cdc01346.knz5ev69gj.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\49423679-7b6f-46cf-b787-5061cdc01346.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wg7uBZsvoXmhQ\u002Bfo59ScLx53kD46rbUQzCzv0eGH1Xk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"135890"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Wg7uBZsvoXmhQ\u002Bfo59ScLx53kD46rbUQzCzv0eGH1Xk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"knz5ev69gj"},{"Name":"integrity","Value":"sha256-QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI="},{"Name":"label","Value":"_content/WalmartWeb/images/product/49423679-7b6f-46cf-b787-5061cdc01346.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60083"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:18:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.qrkel7u0jv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/49423679-7b6f-46cf-b787-5061cdc01346.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\49423679-7b6f-46cf-b787-5061cdc01346.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qrkel7u0jv"},{"Name":"integrity","Value":"sha256-Wg7uBZsvoXmhQ\u002Bfo59ScLx53kD46rbUQzCzv0eGH1Xk="},{"Name":"label","Value":"_content/WalmartWeb/images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"135890"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Wg7uBZsvoXmhQ\u002Bfo59ScLx53kD46rbUQzCzv0eGH1Xk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"60083"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:18:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.6j9or1arb5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7mWgsD6iFU4ATUN8sqbG/WZ64\u002B5Gt\u002BeWOkxWihne6Pk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"103137"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227mWgsD6iFU4ATUN8sqbG/WZ64\u002B5Gt\u002BeWOkxWihne6Pk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6j9or1arb5"},{"Name":"integrity","Value":"sha256-QkVmmqHmD8ZeE5oXV5GHrAi6e\u002ByIyfowFh/3SFuyFUU="},{"Name":"label","Value":"_content/WalmartWeb/images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43440"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QkVmmqHmD8ZeE5oXV5GHrAi6e\u002ByIyfowFh/3SFuyFUU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:14:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.qxby501rkx.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qxby501rkx"},{"Name":"integrity","Value":"sha256-7mWgsD6iFU4ATUN8sqbG/WZ64\u002B5Gt\u002BeWOkxWihne6Pk="},{"Name":"label","Value":"_content/WalmartWeb/images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103137"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227mWgsD6iFU4ATUN8sqbG/WZ64\u002B5Gt\u002BeWOkxWihne6Pk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:42 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QkVmmqHmD8ZeE5oXV5GHrAi6e\u002ByIyfowFh/3SFuyFUU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43440"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QkVmmqHmD8ZeE5oXV5GHrAi6e\u002ByIyfowFh/3SFuyFUU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:14:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.7aqpf7wr7s.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\61e3afe5-091f-456a-aa9e-bd38717277bd.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7aqpf7wr7s"},{"Name":"integrity","Value":"sha256-T/x2JK4cgEsCj/zEJN9cJgAuYBj6\u002BZLVVUMC70KG8qQ="},{"Name":"label","Value":"_content/WalmartWeb/images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42999"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T/x2JK4cgEsCj/zEJN9cJgAuYBj6\u002BZLVVUMC70KG8qQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:11:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\61e3afe5-091f-456a-aa9e-bd38717277bd.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T/x2JK4cgEsCj/zEJN9cJgAuYBj6\u002BZLVVUMC70KG8qQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42999"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T/x2JK4cgEsCj/zEJN9cJgAuYBj6\u002BZLVVUMC70KG8qQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:11:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.2q935x3l92.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\68f13c06-dfcb-435b-bd63-38c6253842ff.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2q935x3l92"},{"Name":"integrity","Value":"sha256-BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE="},{"Name":"label","Value":"_content/WalmartWeb/images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10915"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\68f13c06-dfcb-435b-bd63-38c6253842ff.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10915"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:44:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.3o1g6dvu33.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\892eaedf-4d3d-410f-b937-6385dfcd48a1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3o1g6dvu33"},{"Name":"integrity","Value":"sha256-jQmDMOpRqnbadH/31I\u002Ba18HjuOvvlPVyTlybBkzQpCQ="},{"Name":"label","Value":"_content/WalmartWeb/images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10112"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jQmDMOpRqnbadH/31I\u002Ba18HjuOvvlPVyTlybBkzQpCQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:41:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\892eaedf-4d3d-410f-b937-6385dfcd48a1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jQmDMOpRqnbadH/31I\u002Ba18HjuOvvlPVyTlybBkzQpCQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10112"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jQmDMOpRqnbadH/31I\u002Ba18HjuOvvlPVyTlybBkzQpCQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:41:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8ca79b76-e041-46d0-8547-5ffe5357bf52.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8678"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:42:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.q9tznv95km.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8ca79b76-e041-46d0-8547-5ffe5357bf52.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q9tznv95km"},{"Name":"integrity","Value":"sha256-El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE="},{"Name":"label","Value":"_content/WalmartWeb/images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8678"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:42:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.3hdhlwry2x.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg'))</AssetFile>
@@ -120,18 +240,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d0M83LQw6uIrBpHTmXyd848czM7XkFeM9B4G4Tbzsx4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"81505"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022d0M83LQw6uIrBpHTmXyd848czM7XkFeM9B4G4Tbzsx4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:35:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.cppe75kvzh.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cppe75kvzh"},{"Name":"integrity","Value":"sha256-YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q="},{"Name":"label","Value":"_content/WalmartWeb/images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 08:32:12 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 08:32:12 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -144,29 +252,65 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k8tq0lak5g"},{"Name":"integrity","Value":"sha256-fNXUg92Pd1vmtE6kbIjiBXoBPJNmzEhVimUsD5AsyDM="},{"Name":"label","Value":"_content/WalmartWeb/images/product/9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"79536"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fNXUg92Pd1vmtE6kbIjiBXoBPJNmzEhVimUsD5AsyDM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 11:56:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.e6vrbzb0s4.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.7ynfveo73s.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e6vrbzb0s4"},{"Name":"integrity","Value":"sha256-lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4="},{"Name":"label","Value":"_content/WalmartWeb/images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"357574"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7ynfveo73s"},{"Name":"integrity","Value":"sha256-ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg="},{"Name":"label","Value":"_content/WalmartWeb/images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60761"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:13:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"357574"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:32:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"60761"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 06:13:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.asbi4wwv9t.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/ac94208e-2109-49ca-93e2-1977de7c2684.n8l3igyfde.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ac94208e-2109-49ca-93e2-1977de7c2684.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"asbi4wwv9t"},{"Name":"integrity","Value":"sha256-1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw="},{"Name":"label","Value":"_content/WalmartWeb/images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"214948"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:33:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n8l3igyfde"},{"Name":"integrity","Value":"sha256-uf\u002Ba5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ\u002BmiSNkbM="},{"Name":"label","Value":"_content/WalmartWeb/images/product/ac94208e-2109-49ca-93e2-1977de7c2684.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6176"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022uf\u002Ba5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ\u002BmiSNkbM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:36:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/ac94208e-2109-49ca-93e2-1977de7c2684.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ac94208e-2109-49ca-93e2-1977de7c2684.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"214948"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:33:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uf\u002Ba5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ\u002BmiSNkbM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6176"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022uf\u002Ba5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ\u002BmiSNkbM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:36:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.edhkgi0s0h.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"edhkgi0s0h"},{"Name":"integrity","Value":"sha256-DtPkpK7XZJzDsDbr7ZndeRET\u002BoBJLtRnE5prW2HD3So="},{"Name":"label","Value":"_content/WalmartWeb/images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"45457"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DtPkpK7XZJzDsDbr7ZndeRET\u002BoBJLtRnE5prW2HD3So=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:38:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DtPkpK7XZJzDsDbr7ZndeRET\u002BoBJLtRnE5prW2HD3So="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"45457"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DtPkpK7XZJzDsDbr7ZndeRET\u002BoBJLtRnE5prW2HD3So=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:38:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.m32nuu9c71.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m32nuu9c71"},{"Name":"integrity","Value":"sha256-YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o="},{"Name":"label","Value":"_content/WalmartWeb/images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13593"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:37:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13593"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 07:37:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/d05a2bb5-2424-42ee-988b-d99776e18292.8yjlr87sj6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\d05a2bb5-2424-42ee-988b-d99776e18292.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8yjlr87sj6"},{"Name":"integrity","Value":"sha256-QONriWEOQyYxg5J5tG77e138RTXVaJy7E\u002BUj44fPS/U="},{"Name":"label","Value":"_content/WalmartWeb/images/product/d05a2bb5-2424-42ee-988b-d99776e18292.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2829"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QONriWEOQyYxg5J5tG77e138RTXVaJy7E\u002BUj44fPS/U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:49:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/d05a2bb5-2424-42ee-988b-d99776e18292.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\d05a2bb5-2424-42ee-988b-d99776e18292.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QONriWEOQyYxg5J5tG77e138RTXVaJy7E\u002BUj44fPS/U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2829"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QONriWEOQyYxg5J5tG77e138RTXVaJy7E\u002BUj44fPS/U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 05:49:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/f172582a-6082-4137-9615-9e68895f5c5d.9tz06a7s4d.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\f172582a-6082-4137-9615-9e68895f5c5d.jpg'))</AssetFile>
@@ -191,18 +335,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ta44cbam0i"},{"Name":"integrity","Value":"sha256-O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM="},{"Name":"label","Value":"_content/WalmartWeb/images/product/fb1459a9-bd97-4036-8c40-99471eac6215.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51396"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 09:52:05 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"196077"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:33:35 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WalmartWeb/images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.ye39k9dvz5.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ye39k9dvz5"},{"Name":"integrity","Value":"sha256-imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE="},{"Name":"label","Value":"_content/WalmartWeb/images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"196077"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022imEbAbBfitdQDQ31h\u002BIkne7ZKtjqaSOKhHJgPKW3srE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 07:33:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/js/category.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\category.js'))</AssetFile>
@@ -976,13 +1108,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WalmartWeb.ktug20jdei.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 07:19:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 16:03:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WalmartWeb/WalmartWeb.ktug20jdei.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WalmartWeb.ktug20jdei.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ktug20jdei"},{"Name":"integrity","Value":"sha256-\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8="},{"Name":"label","Value":"_content/WalmartWeb/WalmartWeb.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 07:19:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BE1TLlPMAiG96vUChtEnVBFaJmfX5RbpTWQEK7v\u002BFz8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Feb 2025 16:03:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

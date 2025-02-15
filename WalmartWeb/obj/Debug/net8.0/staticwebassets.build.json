@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hxs/e7vxcTZraoMi5UssV3vx2h4lYsluozQZCINo8As=",
+  "Hash": "i2BC/sHmmdIwEdXQo2OlSBPZlMsQX9BmnU/Gj+t+MTs=",
   "Source": "WalmartWeb",
   "BasePath": "_content/WalmartWeb",
   "Mode": "Default",
@@ -1424,12 +1424,12 @@
       "OriginalItemSpec": "wwwroot\\images\\payment.jpg"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
       "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1438,11 +1438,137 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ecb6f2vn57",
-      "Integrity": "Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI=",
+      "Fingerprint": "rx6j3v875z",
+      "Integrity": "36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\14f47c7e-89ad-42e4-a1a5-79de4964f084.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kxs5o7pzcz",
+      "Integrity": "SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\14f47c7e-89ad-42e4-a1a5-79de4964f084.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "st8v9bbol3",
+      "Integrity": "cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yjeh1fkvzy",
+      "Integrity": "El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n1yshujszv",
+      "Integrity": "W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "moq4434h7r",
+      "Integrity": "6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hfy1zqccy",
+      "Integrity": "I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\42accfb0-4116-4860-afb7-b9dfe5741f41.png",
@@ -1466,12 +1592,12 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\42accfb0-4116-4860-afb7-b9dfe5741f41.png"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg",
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\49423679-7b6f-46cf-b787-5061cdc01346.png",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
       "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/product/49423679-7b6f-46cf-b787-5061cdc01346#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1480,19 +1606,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qrkel7u0jv",
-      "Integrity": "Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk=",
+      "Fingerprint": "knz5ev69gj",
+      "Integrity": "QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\49423679-7b6f-46cf-b787-5061cdc01346.png"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg",
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
       "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1501,11 +1627,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qxby501rkx",
-      "Integrity": "7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk=",
+      "Fingerprint": "6j9or1arb5",
+      "Integrity": "QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\61e3afe5-091f-456a-aa9e-bd38717277bd.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/61e3afe5-091f-456a-aa9e-bd38717277bd#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7aqpf7wr7s",
+      "Integrity": "T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\61e3afe5-091f-456a-aa9e-bd38717277bd.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\68f13c06-dfcb-435b-bd63-38c6253842ff.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/68f13c06-dfcb-435b-bd63-38c6253842ff#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2q935x3l92",
+      "Integrity": "BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\68f13c06-dfcb-435b-bd63-38c6253842ff.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\892eaedf-4d3d-410f-b937-6385dfcd48a1.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3o1g6dvu33",
+      "Integrity": "jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\892eaedf-4d3d-410f-b937-6385dfcd48a1.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\8ca79b76-e041-46d0-8547-5ffe5357bf52.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q9tznv95km",
+      "Integrity": "El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\8ca79b76-e041-46d0-8547-5ffe5357bf52.png"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg",
@@ -1529,27 +1739,6 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg",
-      "SourceId": "WalmartWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
-      "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cppe75kvzh",
-      "Integrity": "YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg"
-    },
-    {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
@@ -1571,12 +1760,12 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg",
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
       "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/e53a638b-d45c-46ef-9424-13541b41ee9e#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1585,19 +1774,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e6vrbzb0s4",
-      "Integrity": "lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=",
+      "Fingerprint": "7ynfveo73s",
+      "Integrity": "ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png"
     },
     {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg",
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ac94208e-2109-49ca-93e2-1977de7c2684.png",
       "SourceId": "WalmartWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
       "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/product/ac94208e-2109-49ca-93e2-1977de7c2684#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1606,11 +1795,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "asbi4wwv9t",
-      "Integrity": "1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=",
+      "Fingerprint": "n8l3igyfde",
+      "Integrity": "uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\product\\ac94208e-2109-49ca-93e2-1977de7c2684.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "edhkgi0s0h",
+      "Integrity": "DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m32nuu9c71",
+      "Integrity": "YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png"
+    },
+    {
+      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\d05a2bb5-2424-42ee-988b-d99776e18292.png",
+      "SourceId": "WalmartWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
+      "BasePath": "_content/WalmartWeb",
+      "RelativePath": "images/product/d05a2bb5-2424-42ee-988b-d99776e18292#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8yjlr87sj6",
+      "Integrity": "QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\d05a2bb5-2424-42ee-988b-d99776e18292.png"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\f172582a-6082-4137-9615-9e68895f5c5d.jpg",
@@ -1653,27 +1905,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\fb1459a9-bd97-4036-8c40-99471eac6215.png"
-    },
-    {
-      "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg",
-      "SourceId": "WalmartWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\",
-      "BasePath": "_content/WalmartWeb",
-      "RelativePath": "images/product/fe6f9866-4f40-4d9e-9738-b657eddff808#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ye39k9dvz5",
-      "Integrity": "imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg"
     },
     {
       "Identity": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\js\\category.js",
@@ -5652,8 +5883,8 @@
       ]
     },
     {
-      "Route": "images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.ecb6f2vn57.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
+      "Route": "images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5662,64 +5893,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "83460"
+          "Value": "184461"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI=\""
+          "Value": "\"36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 09:46:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ecb6f2vn57"
-        },
-        {
-          "Name": "label",
-          "Value": "images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI="
-        }
-      ]
-    },
-    {
-      "Route": "images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "83460"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 09:46:28 GMT"
+          "Value": "Sun, 09 Feb 2025 06:16:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5729,7 +5915,544 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI="
+          "Value": "sha256-36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.rx6j3v875z.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:16:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rx6j3v875z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.kxs5o7pzcz.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\14f47c7e-89ad-42e4-a1a5-79de4964f084.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kxs5o7pzcz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\14f47c7e-89ad-42e4-a1a5-79de4964f084.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:34:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.st8v9bbol3.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:34:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st8v9bbol3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:35:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.yjeh1fkvzy.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:35:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjeh1fkvzy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.n1yshujszv.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:48:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n1yshujszv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:48:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.moq4434h7r.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:52:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "moq4434h7r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:52:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.9hfy1zqccy.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:10:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hfy1zqccy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:10:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c="
         }
       ]
     },
@@ -5816,8 +6539,8 @@
       ]
     },
     {
-      "Route": "images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg",
+      "Route": "images/product/49423679-7b6f-46cf-b787-5061cdc01346.knz5ev69gj.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\49423679-7b6f-46cf-b787-5061cdc01346.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5826,56 +6549,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "135890"
+          "Value": "60083"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk=\""
+          "Value": "\"QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk="
-        }
-      ]
-    },
-    {
-      "Route": "images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.qrkel7u0jv.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "135890"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:25 GMT"
+          "Value": "Sun, 09 Feb 2025 06:18:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5885,21 +6571,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrkel7u0jv"
+          "Value": "knz5ev69gj"
         },
         {
           "Name": "label",
-          "Value": "images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg"
+          "Value": "images/product/49423679-7b6f-46cf-b787-5061cdc01346.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk="
+          "Value": "sha256-QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI="
         }
       ]
     },
     {
-      "Route": "images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg",
+      "Route": "images/product/49423679-7b6f-46cf-b787-5061cdc01346.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\49423679-7b6f-46cf-b787-5061cdc01346.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5908,19 +6594,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103137"
+          "Value": "60083"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk=\""
+          "Value": "\"QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:42 GMT"
+          "Value": "Sun, 09 Feb 2025 06:18:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5930,13 +6616,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk="
+          "Value": "sha256-QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI="
         }
       ]
     },
     {
-      "Route": "images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.qxby501rkx.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg",
+      "Route": "images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.6j9or1arb5.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5945,19 +6631,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "103137"
+          "Value": "43440"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk=\""
+          "Value": "\"QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:42 GMT"
+          "Value": "Sun, 09 Feb 2025 06:14:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5967,15 +6653,380 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxby501rkx"
+          "Value": "6j9or1arb5"
         },
         {
           "Name": "label",
-          "Value": "images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg"
+          "Value": "images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk="
+          "Value": "sha256-QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:14:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.7aqpf7wr7s.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\61e3afe5-091f-456a-aa9e-bd38717277bd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:11:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7aqpf7wr7s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\61e3afe5-091f-456a-aa9e-bd38717277bd.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:11:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.2q935x3l92.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\68f13c06-dfcb-435b-bd63-38c6253842ff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2q935x3l92"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\68f13c06-dfcb-435b-bd63-38c6253842ff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 06:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.3o1g6dvu33.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\892eaedf-4d3d-410f-b937-6385dfcd48a1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:41:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3o1g6dvu33"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\892eaedf-4d3d-410f-b937-6385dfcd48a1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10112"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:41:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\8ca79b76-e041-46d0-8547-5ffe5357bf52.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.q9tznv95km.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\8ca79b76-e041-46d0-8547-5ffe5357bf52.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q9tznv95km"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE="
         }
       ]
     },
@@ -6062,88 +7113,6 @@
       ]
     },
     {
-      "Route": "images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.cppe75kvzh.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "80130"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 08:32:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cppe75kvzh"
-        },
-        {
-          "Name": "label",
-          "Value": "images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q="
-        }
-      ]
-    },
-    {
-      "Route": "images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "80130"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 08:32:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q="
-        }
-      ]
-    },
-    {
       "Route": "images/product/9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg",
       "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg",
       "Selectors": [],
@@ -6226,8 +7195,8 @@
       ]
     },
     {
-      "Route": "images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.e6vrbzb0s4.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg",
+      "Route": "images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.7ynfveo73s.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6236,19 +7205,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "357574"
+          "Value": "60761"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=\""
+          "Value": "\"ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:08 GMT"
+          "Value": "Sun, 09 Feb 2025 06:13:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6258,21 +7227,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e6vrbzb0s4"
+          "Value": "7ynfveo73s"
         },
         {
           "Name": "label",
-          "Value": "images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.jpg"
+          "Value": "images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4="
+          "Value": "sha256-ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg="
         }
       ]
     },
     {
-      "Route": "images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg",
+      "Route": "images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6281,19 +7250,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "357574"
+          "Value": "60761"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=\""
+          "Value": "\"ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:32:08 GMT"
+          "Value": "Sun, 09 Feb 2025 06:13:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6303,13 +7272,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4="
+          "Value": "sha256-ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg="
         }
       ]
     },
     {
-      "Route": "images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.asbi4wwv9t.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg",
+      "Route": "images/product/ac94208e-2109-49ca-93e2-1977de7c2684.n8l3igyfde.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ac94208e-2109-49ca-93e2-1977de7c2684.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6318,19 +7287,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "214948"
+          "Value": "6176"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=\""
+          "Value": "\"uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:33:01 GMT"
+          "Value": "Sun, 09 Feb 2025 05:36:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6340,21 +7309,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "asbi4wwv9t"
+          "Value": "n8l3igyfde"
         },
         {
           "Name": "label",
-          "Value": "images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg"
+          "Value": "images/product/ac94208e-2109-49ca-93e2-1977de7c2684.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw="
+          "Value": "sha256-uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM="
         }
       ]
     },
     {
-      "Route": "images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg",
+      "Route": "images/product/ac94208e-2109-49ca-93e2-1977de7c2684.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\ac94208e-2109-49ca-93e2-1977de7c2684.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6363,19 +7332,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "214948"
+          "Value": "6176"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=\""
+          "Value": "\"uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:33:01 GMT"
+          "Value": "Sun, 09 Feb 2025 05:36:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6385,7 +7354,253 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw="
+          "Value": "sha256-uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.edhkgi0s0h.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:38:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "edhkgi0s0h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:38:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.m32nuu9c71.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:37:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m32nuu9c71"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 07:37:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/d05a2bb5-2424-42ee-988b-d99776e18292.8yjlr87sj6.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\d05a2bb5-2424-42ee-988b-d99776e18292.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:49:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8yjlr87sj6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/product/d05a2bb5-2424-42ee-988b-d99776e18292.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U="
+        }
+      ]
+    },
+    {
+      "Route": "images/product/d05a2bb5-2424-42ee-988b-d99776e18292.png",
+      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\d05a2bb5-2424-42ee-988b-d99776e18292.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 05:49:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U="
         }
       ]
     },
@@ -6550,88 +7765,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-O1mc9TeNoSLcfE9Y8rAt34UeznMLc9ARMpPknARQlxM="
-        }
-      ]
-    },
-    {
-      "Route": "images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "196077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:33:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE="
-        }
-      ]
-    },
-    {
-      "Route": "images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.ye39k9dvz5.jpg",
-      "AssetFile": "D:\\DailyPractise\\JARNY Projects\\Walmart\\Walmart\\WalmartWeb\\wwwroot\\images\\product\\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "196077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 07:33:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ye39k9dvz5"
-        },
-        {
-          "Name": "label",
-          "Value": "images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE="
         }
       ]
     },
@@ -11906,7 +13039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
+          "Value": "Sun, 09 Feb 2025 16:03:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11943,7 +13076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
+          "Value": "Sun, 09 Feb 2025 16:03:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11988,7 +13121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
+          "Value": "Sun, 09 Feb 2025 16:03:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12033,7 +13166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 07:19:14 GMT"
+          "Value": "Sun, 09 Feb 2025 16:03:11 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -34,11 +34,17 @@ namespace WalmartWeb.Areas.Customer.Controllers
         public IActionResult Index()
         {
             ClaimsIdentity claimsIdentity = (ClaimsIdentity?)User.Identity;
-            string userId = (claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier))?.Value;
+            var claim = (claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier));
+
+            if (claim != null)
+            {
+                HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).Count());
+
+            }
 
             ShoppingCartVM = new()
             {
-                ShoppingCartList = _db.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
+                ShoppingCartList = _db.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value,
                 includeProperties: "Product"),
                 OrderHeader = new()
             };
@@ -434,7 +440,7 @@ namespace WalmartWeb.Areas.Customer.Controllers
             List<ShoppingCart> shoppingCarts = _db.ShoppingCart.GetAll(u => u.ApplicationUserId  == orderHeader.ApplicationUserId).ToList();
             _db.ShoppingCart.RemoveRange(shoppingCarts);
             _db.Commit();
-
+            HttpContext.Session.Clear();
             return View(id);
         }
 
@@ -449,11 +455,12 @@ namespace WalmartWeb.Areas.Customer.Controllers
 
         public IActionResult Minus(int? cartId)
         {
-            ShoppingCart cartFromDb = _db.ShoppingCart.Get(u => u.Id == cartId);
+            ShoppingCart cartFromDb = _db.ShoppingCart.Get(u => u.Id == cartId,tracked:true);
             if (cartFromDb.Count <= 1)
             {
                 //remove from cart
                 _db.ShoppingCart.Remove(cartFromDb);
+                HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).Count() - 1);
             }
             else
             {
@@ -469,8 +476,10 @@ namespace WalmartWeb.Areas.Customer.Controllers
 
         public IActionResult Remove(int? cartId)
         {
-            ShoppingCart cartFromDb = _db.ShoppingCart.Get(u => u.Id == cartId);
+            ShoppingCart cartFromDb = _db.ShoppingCart.Get(u => u.Id == cartId,tracked:true);
+            HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).Count() - 1);
             _db.ShoppingCart.Remove(cartFromDb);
+           
             _db.Commit();
             return RedirectToAction(nameof(Index));
         }

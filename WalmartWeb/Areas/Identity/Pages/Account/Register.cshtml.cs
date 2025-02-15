@@ -234,9 +234,20 @@ namespace WalmartWeb.Areas.Identity.Pages.Account
                     //}
                     //else
                     //{
+                    if (User.IsInRole(SD.Role_Admin))
+                    {
+                        returnUrl ??= Url.Content("~/");
+                        TempData["success"] = "New User created successfully!!";
+                        return LocalRedirect(returnUrl);
+
+                    }
+                    else
+                    {
                         return RedirectToPage("Login", new { email = Input.Email, returnUrl = returnUrl });
-                        //await _signInManager.SignInAsync(user, isPersistent: false);
-                        //return LocalRedirect(returnUrl);
+
+                    }
+                    //await _signInManager.SignInAsync(user, isPersistent: false);
+                    //return LocalRedirect(returnUrl);
                     //}
                 }
                 foreach (var error in result.Errors)

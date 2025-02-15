@@ -90,23 +90,131 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\payment.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg</RelativePath>
+      <RelativePath>images/product/0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ecb6f2vn57</Fingerprint>
-      <Integrity>Ehr6l3Abfe+w/m+tZx+lFKvpwbF7MtDBHEgF8xRHHDI=</Integrity>
+      <Fingerprint>rx6j3v875z</Fingerprint>
+      <Integrity>36gRenxkMJUMGI3wjrXaHm+/ZlVv5R6VlBPw7ggFua0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\197999f7-9238-4470-8c4f-bab7c6ecaccd.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\0fec5f93-d5a4-4303-a15d-f0ab52a09e84.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\14f47c7e-89ad-42e4-a1a5-79de4964f084.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/14f47c7e-89ad-42e4-a1a5-79de4964f084.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kxs5o7pzcz</Fingerprint>
+      <Integrity>SPr2TS7yWyKH+/pojblETFMQzBK6aVNLmkthC/GqBEY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\14f47c7e-89ad-42e4-a1a5-79de4964f084.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>st8v9bbol3</Fingerprint>
+      <Integrity>cKPOlTzCEoUlwqY/Bcawl7z/YnGpgt4nTSnqgnWy3O4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\1f266b9e-ca0d-40d1-bd50-776c5f3336c9.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yjeh1fkvzy</Fingerprint>
+      <Integrity>El8Ini4MxGPHHnapODuYMvU51bwp/6tMh7GDLEUYJKk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\2b2f14c9-da99-4324-8b78-cd4e6edaf5b4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n1yshujszv</Fingerprint>
+      <Integrity>W7Tzfxflx0tluQ0dWNx7RCQ5yH/Rf9Qb50nj4gsjtuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3ddcea3c-a64a-4667-b7e1-300ed5e33a4a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/3e751ba2-9f89-4241-a5a0-bafcd15ab919.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>moq4434h7r</Fingerprint>
+      <Integrity>6q/E3HENqwiLm4ECwkNKcml25EUz8FiIAtJ8jaxrR6w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3e751ba2-9f89-4241-a5a0-bafcd15ab919.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9hfy1zqccy</Fingerprint>
+      <Integrity>I9ByRZ16RFidI0h3TcwaNRNWD9JpH0CG4LVzydvDS3c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\3f18c1e8-3ce5-4faf-b4fe-1e349f0e18d6.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\42accfb0-4116-4860-afb7-b9dfe5741f41.png'))">
       <SourceType>Package</SourceType>
@@ -126,41 +234,113 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\42accfb0-4116-4860-afb7-b9dfe5741f41.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\49423679-7b6f-46cf-b787-5061cdc01346.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg</RelativePath>
+      <RelativePath>images/product/49423679-7b6f-46cf-b787-5061cdc01346.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qrkel7u0jv</Fingerprint>
-      <Integrity>Wg7uBZsvoXmhQ+fo59ScLx53kD46rbUQzCzv0eGH1Xk=</Integrity>
+      <Fingerprint>knz5ev69gj</Fingerprint>
+      <Integrity>QHK03DTe4fHiec56i6sg7D/pqJJwfDDeb3ddgmRCNQI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\64017557-715e-4c1a-8fe6-ae7a1aa7a4ba.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\49423679-7b6f-46cf-b787-5061cdc01346.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg</RelativePath>
+      <RelativePath>images/product/5d45a7e1-8056-4b36-bc7f-079bd66a0719.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qxby501rkx</Fingerprint>
-      <Integrity>7mWgsD6iFU4ATUN8sqbG/WZ64+5Gt+eWOkxWihne6Pk=</Integrity>
+      <Fingerprint>6j9or1arb5</Fingerprint>
+      <Integrity>QkVmmqHmD8ZeE5oXV5GHrAi6e+yIyfowFh/3SFuyFUU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\7ca05da9-8529-4a2e-becc-f1a5a336a388.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\5d45a7e1-8056-4b36-bc7f-079bd66a0719.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\61e3afe5-091f-456a-aa9e-bd38717277bd.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/61e3afe5-091f-456a-aa9e-bd38717277bd.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7aqpf7wr7s</Fingerprint>
+      <Integrity>T/x2JK4cgEsCj/zEJN9cJgAuYBj6+ZLVVUMC70KG8qQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\61e3afe5-091f-456a-aa9e-bd38717277bd.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\68f13c06-dfcb-435b-bd63-38c6253842ff.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/68f13c06-dfcb-435b-bd63-38c6253842ff.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2q935x3l92</Fingerprint>
+      <Integrity>BvN0f1Bgl7mfU3ITICxMJ3P0Oa096ks/Zdl8mVnpbSE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\68f13c06-dfcb-435b-bd63-38c6253842ff.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\892eaedf-4d3d-410f-b937-6385dfcd48a1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/892eaedf-4d3d-410f-b937-6385dfcd48a1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3o1g6dvu33</Fingerprint>
+      <Integrity>jQmDMOpRqnbadH/31I+a18HjuOvvlPVyTlybBkzQpCQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\892eaedf-4d3d-410f-b937-6385dfcd48a1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8ca79b76-e041-46d0-8547-5ffe5357bf52.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/8ca79b76-e041-46d0-8547-5ffe5357bf52.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q9tznv95km</Fingerprint>
+      <Integrity>El70CSb4JqmJyxwNtve0u0zwlWISejjYR7Ti0WFe9sE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8ca79b76-e041-46d0-8547-5ffe5357bf52.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg'))">
       <SourceType>Package</SourceType>
@@ -180,24 +360,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\8f4cd0c5-ae08-43a0-9d75-0b482a4191cf.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WalmartWeb</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cppe75kvzh</Fingerprint>
-      <Integrity>YOsuVc7X7aynbiT4pcqav7HR8pISZD1VmxAb04p4X5Q=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\91e7768f-dd98-4eab-ba4b-342b6df08e1b.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
@@ -216,41 +378,95 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\9e7d5157-ee5a-4a2a-96ad-f310704aae2a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/e53a638b-d45c-46ef-9424-13541b41ee9e.jpg</RelativePath>
+      <RelativePath>images/product/a82c29e3-0dd8-485e-8b20-6ec3111ea634.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e6vrbzb0s4</Fingerprint>
-      <Integrity>lt0jcFtT3epYeWXpcSx7Js5crNggoy7RSHvrynzuhE4=</Integrity>
+      <Fingerprint>7ynfveo73s</Fingerprint>
+      <Integrity>ASKlN8FWBIK1fY525zAMng4pkBDIdwScjR7EzTczekg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\e53a638b-d45c-46ef-9424-13541b41ee9e.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\a82c29e3-0dd8-485e-8b20-6ec3111ea634.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ac94208e-2109-49ca-93e2-1977de7c2684.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WalmartWeb</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg</RelativePath>
+      <RelativePath>images/product/ac94208e-2109-49ca-93e2-1977de7c2684.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>asbi4wwv9t</Fingerprint>
-      <Integrity>1i8/WJ/teMHNz3o9tVl4SC199HnGns3AYELj/44V/cw=</Integrity>
+      <Fingerprint>n8l3igyfde</Fingerprint>
+      <Integrity>uf+a5ojd6Wb0HBdCLlBrcHnqatVZgZfYwsQ+miSNkbM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ea9883fb-8360-486b-86a8-9a95c9333b8f.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\ac94208e-2109-49ca-93e2-1977de7c2684.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>edhkgi0s0h</Fingerprint>
+      <Integrity>DtPkpK7XZJzDsDbr7ZndeRET+oBJLtRnE5prW2HD3So=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\b0474b06-e0a8-45c5-9282-fcb257f8fdd4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m32nuu9c71</Fingerprint>
+      <Integrity>YhAes6nyZVYinlc8n6yqUz/79K4HovotUR/wWQ5Ue9o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\bd5dc0a1-c446-427f-b8a8-515a5e9effc2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\d05a2bb5-2424-42ee-988b-d99776e18292.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WalmartWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WalmartWeb</BasePath>
+      <RelativePath>images/product/d05a2bb5-2424-42ee-988b-d99776e18292.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8yjlr87sj6</Fingerprint>
+      <Integrity>QONriWEOQyYxg5J5tG77e138RTXVaJy7E+Uj44fPS/U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\d05a2bb5-2424-42ee-988b-d99776e18292.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\f172582a-6082-4137-9615-9e68895f5c5d.jpg'))">
       <SourceType>Package</SourceType>
@@ -287,24 +503,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\fb1459a9-bd97-4036-8c40-99471eac6215.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>WalmartWeb</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/WalmartWeb</BasePath>
-      <RelativePath>images/product/fe6f9866-4f40-4d9e-9738-b657eddff808.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ye39k9dvz5</Fingerprint>
-      <Integrity>imEbAbBfitdQDQ31h+Ikne7ZKtjqaSOKhHJgPKW3srE=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\product\fe6f9866-4f40-4d9e-9738-b657eddff808.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\category.js'))">
       <SourceType>Package</SourceType>

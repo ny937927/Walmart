@@ -3,8 +3,12 @@
 @{
     ViewData["Title"] = "Register";
 }
+@if(User.IsInRole(SD.Role_Admin)){
+    <h1>@ViewData["Title"] User - Admin Portal</h1>
+}else{
+    <h1>@ViewData["Title"] User</h1>
+}
 
-<h1>@ViewData["Title"]</h1>
 
 <div class="row">
     <h5>Create a new account</h5>
@@ -66,19 +70,21 @@
                     <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
                 </div>
             </div>
+            @if(User.IsInRole(SD.Role_Admin)){
             <div class="row">
-               @*  <div class="form-floating mb-3 col-md-6">
-                    <select asp-for="Input.Role" disabled class="form-select" asp-items="@Model.Input.RoleList">
+                <div class="form-floating mb-3 col-md-6">
+                    <select asp-for="Input.Role" class="form-select" asp-items="@Model.Input.RoleList">
                         <option disabled selected>--Select Role--</option>
                     </select>
                 </div>
                 <div class="form-floating mb-3 col-md-6">
-                    <select asp-for="@Model.Input.CompanyId" disabled style="display:none" class="form-select" asp-items="@Model.Input.CompanyList">
+                    <select asp-for="@Model.Input.CompanyId" style="display:none" class="form-select" asp-items="@Model.Input.CompanyList">
                         <option disabled selected>--Select Company--</option>
                     </select>
-                </div> *@
+                </div>
                
             </div>
+            }
             
             <div class="row pt-2">
                 <div class="col-6 col-md-3">
@@ -96,7 +102,9 @@
             </div>
         </form>
     </div>
-   @*  <div class="col-md-6 col-md-offset-2">
+    @* 
+    <hr />
+     <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -125,7 +133,7 @@
                 }
             }
         </section>
-    </div> *@
+    </div>  *@
 </div>
 
 @section Scripts {

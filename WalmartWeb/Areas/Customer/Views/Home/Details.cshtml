@@ -56,16 +56,16 @@
                         </div>
                         <div class="row text-center ps-2">
                             <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
-                                <div>Price</div>
+                                <div>Price &#8377;</div>
                             </div>
                             <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
-                                <div>@Model.Product.Price.ToString("c")</div>
+                                <div>@Model.Product.Price.ToString()</div>
                             </div>
                             <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
-                                <div>@Model.Product.Price50.ToString("c")</div>
+                                <div>@Model.Product.Price50.ToString()</div>
                             </div>
                             <div class="p-1 col-3 col-lg-2 bg-white text-warning fw-bold">
-                                <div>@Model.Product.Price100.ToString("c")</div>
+                                <div>@Model.Product.Price100.ToString()</div>
                             </div>
                         </div>
                         <div class="row pl-2 my-3">
@@ -108,8 +108,8 @@
             // Prevent input of negative numbers while typing
             $('#Count').on('input', function() {
                 var value = $(this).val();
-                if (value < 0) {
-                    $(this).val(0); // Set to 0 if a negative number is entered
+                if (value < 1) {
+                    $(this).val(1); // Set to 1 if a negative number is entered
                 }
             });
         });

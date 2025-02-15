@@ -33,5 +33,8 @@ namespace Walmart.Utility
         public const string SecretKey = "ZT9w8JQleZCZYEhDLaj6HsOe";
 
 
+        //Session
+        public const string SessionCart = "SessionShoppingCart";
+
     }
 }
